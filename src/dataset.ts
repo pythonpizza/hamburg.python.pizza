@@ -66,7 +66,7 @@ export const SPONSORS: Sponsor[][] = [
         {
             id: 'sinnerschrader',
             name: 'SinnerSchrader',
-            photo: './assets/sponsors/SinnerS_black.jpg',
+            photo: require('Assets/sponsors/SinnerS_black.jpg'),
             link: 'https://sinnerschrader.com',
         },
         /*  {

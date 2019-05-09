@@ -18,10 +18,9 @@ export default class Home extends React.Component {
                 <About />
                 <Sponsors />
                 <Speakers />
-                <Schedule />
                 <Coc />
             </div>
         );
     }
 }
-//
+// <Schedule />

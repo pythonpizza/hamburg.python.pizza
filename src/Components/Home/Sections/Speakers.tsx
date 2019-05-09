@@ -17,6 +17,7 @@ export default class Speakers extends React.Component {
                 <Container size={Sizes.large}>
                     <Container size={Sizes.small}>
                         <h1>Speakers</h1>
+                        <p>CFP comming soon</p>
                     </Container>
                     <Grid>
                         {this.shuffleArray(SPEAKERS).map((speaker, i) => <SpeakerCard key={i} speaker={speaker} />)}

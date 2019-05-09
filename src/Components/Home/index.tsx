@@ -16,11 +16,12 @@ export default class Home extends React.Component {
             <div className="home">
                 <Hero />
                 <About />
-                <Schedule />
-                <Speakers />
                 <Sponsors />
+                <Speakers />
+                <Schedule />
                 <Coc />
             </div>
         );
     }
 }
+//

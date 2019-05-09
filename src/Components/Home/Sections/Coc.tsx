@@ -8,68 +8,70 @@ export default () => (
     <section id="coc" className="coc">
         <Container size={Sizes.medium}>
             <h1>Code of conduct</h1>
-            <p>
-                Tutti i delegati, relatori, espositori e volontari di Python Pizza sono tenuti ad attenersi al seguente
-                codice di condotta. Gli organizzatori faranno rispettare questo codice durante tutta la manifestazione.
-            </p>
-            <p>
-                Python Pizza è dedicata a fornire un'esperienza della conferenza senza molestie per tutti,
-                indipendentemente da genere, orientamento sessuale, disabilità, aspetto fisico, dimensione corporea,
-                razza o religione. Non tolleriamo molestie ai partecipanti alla conferenza in qualsiasi forma.
-                Linguaggio e immagini sessuali non sono appropriate per qualsiasi ambito della conferenza, compresi le
-                presentazioni. I partecipanti alla conferenza che violano queste regole possono essere sanzionati o
-                espulsi dalla conferenza a discrezione degli organizzatori della conferenza.
-            </p>
-
-            <p>
-                Le molestie includono commenti offensivi verbali legati a genere, orientamento sessuale, disabilità,
-                aspetto fisico, dimensione corporea, razza, religione, immagini sessuali in spazi pubblici,
-                intimidazioni intenzionali, stalking, inseguimenti, fotografie o registrazioni moleste, interruzione
-                continuata di presentazioni o altri eventi, contatto fisico inappropriato e attenzioni sessuali
-                sgradite.
-            </p>
-
-            <p>
-                Ci aspettiamo che i partecipanti seguano queste regole in tutti gli ambiti della conferenza e durante
-                gli eventi sociali collegati alla conferenza.
-            </p>
-            <p>
-                Il personale della conferenza sarà lieto di aiutare i partecipanti a contattare la sicurezza della sede
-                o le locali forze dell'ordine, fare da scorta, o assistere in altro modo coloro che subiscono molestie,
-                in modo da farli sentire al sicuro per la durata della conferenza. Apprezziamo la vostra presenza.
-            </p>
-            <p>
-                Doveste aver bisogno di parlare privatamente con gli organizzatori, prima o durante Python Pizza,
-                contattate una delle seguenti persone:
-            </p>
+            <h2>Purpose</h2>
+            <p>Berlin Python Pizza is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion or lack thereof. </p>
+            <p>We do not tolerate harassment of conference participants in any form.</p>
+            <p>Sexual language and imagery is not appropriate for any conference venue, including talks.</p>
+            <p>We expect all community participants to abide by this Code of Conduct in all community venues—online and in-person—as well as in all one-on-one communications pertaining to community business.</p>
+            <p><b>
+                Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.
+            </b></p>
+            <h2>Expected Behavior</h2>
             <ul>
-                <li>
-                    Marco Acierno{' '}
-                    <a rel="noopener noreferrer" target="_blank" href="mailto:marco@python.pizza">
-                        marco@python.pizza
-                    </a>
-                </li>
-                <li>
-                    Dario Carella{' '}
-                    <a rel="noopener noreferrer" target="_blank" href="mailto:dario@python.pizza">
-                        dario@python.pizza
-                    </a>
-                </li>
+                <li>Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.</li>
+                <li> Exercise consideration and respect in your speech and actions.</li>
+                <li> Attempt collaboration before conflict</li>
+                <li> Use inclusive language</li>
+                <li> Refrain from demeaning, discriminatory, or harassing behavior and speech.</li>
+                <li> Be mindful of your surroundings and of your fellow participants.</li>
+                <li> Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.</li>
             </ul>
+            <h2>Unacceptable Behavior</h2>
             <p>
-                Lo staff di Python Pizza sarà riconoscibile grazie alla maglia rossa e al badge con la scritta 'Staff'
-                sopra.
+                Unacceptable behaviors include, but is not limited to:</p>
+            <ul>
+                <li>Abusive, discriminatory, derogatory or demeaning speech or actions</li>
+                <li>Sexual images in public spaces</li>
+                <li>Harassing, intimidation, stalking, or following</li>
+                <li>Sustained disruption of talks or other events</li>
+                <li>Inappropriate physical contact</li>
+                <li>Invasion of personal space</li>
+                <li>Unwelcome sexual attention</li>
+                <li>Advocating for, or encouraging, any of the above behaviour</li>
+            </ul>
+            <h2>Consequences of Unacceptable Behavior</h2>
+            <p>
+                Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
+                </p>
+            <p>
+                Anyone asked to stop unacceptable behavior is expected to comply immediately.
+                If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event).
+            </p>
+            <br></br>
+            <h2>If You Witness or Are Subject to Unacceptable Behavior</h2>
+            <p>
+                If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible.
             </p>
             <p>
-                Il CoC di Python Pizza è ispirato al CoC di Pycon Italia, disponibile{' '}
-                <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://github.com/pythonitalia/code-of-conducts/blob/master/conference/italian.md"
-                >
-                    qui
-                </a>.
+                We will publish during the conference information on where to make a report.
             </p>
+
+            <p> When taking a personal report, our staff will ensure you are safe and cannot be overheard. They may involve other event staff to ensure your report is managed properly.</p>
+            <p>Once safe, we’ll ask you to tell us about what happened. This can be upsetting, but we’ll handle it as respectfully as possible, and you can bring someone to support you. You won’t be asked to confront anyone and we won’t tell anyone who you are.</p>
+            <p>Our team will be happy to help you contact hotel/venue security, local law enforcement, local support services, provide escorts, or otherwise assist you to feel safe for the duration of the event.</p>
+            <p>We value your attendance.
+        </p>
+            <h2>Anonymous report</h2>
+            <p>You can make an anonymous report (we will publish a form for anonymous reports).</p>
+            <p>We can’t follow up an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence</p>
+
+            <h2>Addressing Grievances</h2>
+            <p>If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify one of the event organizers with a concise description of your grievance.</p>
+            <p>Your grievance will be handled in accordance with our existing governing policies.</p>
+
+            <h2>Credits</h2>
+            <p>This Code of Conduct was inspired by the <a rel="noopener noreferrer" target="_blank" href="https://berlincodeofconduct.org/">Berlin</a> and  <a rel="noopener noreferrer" target="_blank" href="https://2018.jsconf.eu/code-of-conduct/">JS Conf</a> code of conducts.</p>
+
         </Container>
     </section>
 );

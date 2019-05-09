@@ -12,10 +12,10 @@ export default class Hero extends React.Component {
                     <h1>Python Pizza</h1>
                     <h2>
                         <a target="_blank" rel="noopener noreferrer">
-                            Hamburg
+                            Hamburg @ SinnerSchrader
                         </a>
                     </h2>
-                    <h2>TBA</h2>
+                    <h2>16 November 2019</h2>
                 </div>
 
                 <Wave />

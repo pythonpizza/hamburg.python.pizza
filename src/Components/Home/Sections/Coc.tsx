@@ -9,7 +9,7 @@ export default () => (
         <Container size={Sizes.medium}>
             <h1>Code of conduct</h1>
             <h2>Purpose</h2>
-            <p>Berlin Python Pizza is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion or lack thereof. </p>
+            <p>Hamburg Python Pizza is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion or lack thereof. </p>
             <p>We do not tolerate harassment of conference participants in any form.</p>
             <p>Sexual language and imagery is not appropriate for any conference venue, including talks.</p>
             <p>We expect all community participants to abide by this Code of Conduct in all community venues—online and in-person—as well as in all one-on-one communications pertaining to community business.</p>

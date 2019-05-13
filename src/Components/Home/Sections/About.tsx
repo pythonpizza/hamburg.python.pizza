@@ -7,12 +7,17 @@ export default class About extends React.Component {
         return (
             <section id="about">
                 <Container size={Sizes.medium}>
-                    <h1>About us</h1>
+                    <h1>Pizza Python</h1>
                     <p><b>Python Pizza</b> is a micro conference organized by the Python Hamburg Community.</p>
                     <p>
                         We bring the Python Community together for some amazing original Pizza™ and Python Talks.</p>
                     <p>We believe in and encourage practical sessions, in which developers share their experience and lessons from real-world projects, each talk is 10 mins long.</p>
                     <p>Thanks to the Python Pizza (Naples!) that started this format!</p>
+
+
+                    <br></br>
+                    <h1>PyLadies Panel</h1>
+                    <p>On the next day after the conference there will a Coffe, Cake and Panel event organised by the PyLadies Hamburg and Berlin, more info coming soon!</p>
 
                 </Container>
             </section>

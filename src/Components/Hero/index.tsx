@@ -15,7 +15,7 @@ export default class Hero extends React.Component {
                             Hamburg @ SinnerSchrader
                         </a>
                     </h2>
-                    <h2>16 November 2019</h2>
+                    <h2>9 November 2019</h2>
                 </div>
 
                 <Wave />

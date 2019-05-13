@@ -34,11 +34,7 @@ export default class Header extends React.Component {
                                 About 🍕
                             </a>
                         </li>
-                        <li>
-                            <a onClick={this.onNavClick} href="#schedule" data-destination="schedule">
-                                Schedule
-                            </a>
-                        </li>
+
                         <li>
                             <a onClick={this.onNavClick} href="#sponsors" data-destination="sponsors">
                                 Sponsors
@@ -59,3 +55,9 @@ export default class Header extends React.Component {
         );
     }
 }
+
+// <li>
+//<a onClick={this.onNavClick} href="#schedule" data-destination="schedule">
+//Schedule
+//</a>
+//</li>

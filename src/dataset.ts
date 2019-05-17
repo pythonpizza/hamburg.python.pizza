@@ -69,12 +69,12 @@ export const SPONSORS: Sponsor[][] = [
             photo: require('Assets/sponsors/SinnerS_black.jpg'),
             link: 'https://sinnerschrader.com',
         },
-        /*  {
-              id: 'roll',
-              name: 'TBA',
-              photo: 'https://via.placeholder.com/150',
-              link: 'https://rollstudio.co.uk/',
-          },*/
+        {
+            id: 'PySV',
+            name: 'Python Software Verband',
+            photo: require('Assets/sponsors/PySVlogo.png'),
+            link: 'https://python-verband.org',
+        },
     ],
     /* [
          {

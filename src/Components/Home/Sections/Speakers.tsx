@@ -17,7 +17,13 @@ export default class Speakers extends React.Component {
                 <Container size={Sizes.large}>
                     <Container size={Sizes.small}>
                         <h1>Speakers</h1>
-                        <p>CFP coming soon</p>
+                        <p>The <a
+                            href="https://forms.gle/Hfdba6uCzeUrbmXM9"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            CFP
+                            </a> is open!!! Please apply till 7 September!  Each talk is 10 minutes long and we would love to have many first time speakers!!</p>
                     </Container>
                     <Grid>
                         {this.shuffleArray(SPEAKERS).map((speaker, i) => <SpeakerCard key={i} speaker={speaker} />)}

@@ -13,11 +13,26 @@ export default class About extends React.Component {
                         We bring the Python Community together for some amazing original Pizza™ and Python Talks.</p>
                     <p>We believe in and encourage practical sessions, in which developers share their experience and lessons from real-world projects, each talk is 10 mins long.</p>
                     <p>Thanks to the Python Pizza (Naples!) that started this format!</p>
+                    <p>Check out the past editions: <a
+                        href="https://python.pizza"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Naples Python Pizza
+                            </a> and <a
+                            href="https://berlin.python.pizza"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Berlin Python Pizza
+                            </a> </p>
 
 
                     <br></br>
                     <h1>PyLadies Panel</h1>
-                    <p>On the next day after the conference there will a Coffe, Cake and Panel event organised by the PyLadies Hamburg and Berlin, more info coming soon!</p>
+                    <p>On the next day after the conference there will a Coffee, Cake and Panel event organized by the PyLadies Hamburg and Berlin, more info coming soon!</p>
+
+
 
                 </Container>
             </section>

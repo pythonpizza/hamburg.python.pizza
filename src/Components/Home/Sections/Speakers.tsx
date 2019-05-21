@@ -22,7 +22,7 @@ export default class Speakers extends React.Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            CFP
+                            CfP
                             </a> is open!!! Please apply till 7 September!  Each talk is 10 minutes long and we would love to have many first time speakers!!</p>
                     </Container>
                     <Grid>

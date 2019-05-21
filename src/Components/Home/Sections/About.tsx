@@ -18,13 +18,13 @@ export default class About extends React.Component {
                         href="https://python.pizza"
                         target="_blank"
                         rel="noopener noreferrer"
-                    ><b>Naples Python Pizza</b>
+                    >Naples Python Pizza
                     </a> and <a
-                        href="https://berlin.python.pizza"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                            <b>Berlin Python Pizza</b>
+                            href="https://berlin.python.pizza"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Berlin Python Pizza
                         </a> </p>
 
 

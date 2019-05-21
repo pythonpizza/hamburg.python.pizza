@@ -12,6 +12,11 @@
     h1 {
         text-align: center;
     }
+
+    .container.container--medium p {
+        text-align: left;
+    }
+
     h2 {
         padding-top: 2rem;
         padding-bottom: 1rem;

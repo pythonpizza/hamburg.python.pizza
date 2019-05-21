@@ -42,6 +42,20 @@ export default class Header extends React.Component {
                         </li>
                         <li>
                             <a
+                                href="https://forms.gle/Hfdba6uCzeUrbmXM9"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Call for Proposals
+                            </a>
+                        </li>
+                        <li>
+                            <a onClick={this.onNavClick} href="#coc" data-destination="coc">
+                                CoC
+                            </a>
+                        </li>
+                        <li>
+                            <a
                                 href=""
                                 target="_blank"
                                 rel="noopener noreferrer"

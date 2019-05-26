@@ -19,6 +19,7 @@ The rest is all the media which goes in [assets](assets)
 # How to run/compile the wesite
 
 Besides installing ```npm``` and ```node``` also install ```yarn``` (using ```npm install -g yarn```)
+For first time, run ```yarn``` to build all the files.
 
 For running the site locally execute:
 

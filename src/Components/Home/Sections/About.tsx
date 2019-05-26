@@ -25,15 +25,7 @@ export default class About extends React.Component {
                             rel="noopener noreferrer"
                         >
                             Berlin Python Pizza
-                        </a> </p>
-
-
-                    <br></br>
-                    <h1>PyLadies Panel</h1>
-                    <p>On the next day after the conference there will a Coffee, Cake and Panel event organized by the PyLadies Hamburg and Berlin, more info coming soon!</p>
-
-
-
+                        </a>. </p>
                 </Container>
             </section>
         );

@@ -22,12 +22,12 @@ export default class Speakers extends React.Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            CfP
-                            </a> is open!!! You have until 7th September to apply!  Each talk will be 10 minutes long and we would love to have many first time speakers!!</p>
+                            CFP
+                            </a> is open!!! You have until 7th September to apply! Each talk will be 10 minutes long and we would love to have many first time speakers!!</p>
                     </Container>
-                    <Grid>
+                    {/*<Grid>
                         {this.shuffleArray(SPEAKERS).map((speaker, i) => <SpeakerCard key={i} speaker={speaker} />)}
-                    </Grid>
+                    </Grid>*/}
                 </Container>
             </section>
         );

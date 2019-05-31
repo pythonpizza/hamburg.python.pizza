@@ -10,16 +10,17 @@ The template is pretty self explanatory, so main things for the future:
  - CFP information can be added in: [home](src/Components/Home/Speakers.tsx)
  - link to ticket information to be added to: [header](src/Components/Header/index.tsx)
 
-When having only *x* sponsors in the array please edit the CSS template for the [SponsorsShocase](src/Components/SponsorsShocase/index.css), by changing the elements last-child and firs-child to have 
+When having only *x* sponsors in the array please edit the CSS template for the [SponsorsShocase](src/Components/SponsorsShocase/index.css), by changing the elements last-child and first-child to have
 
-```grid-template-columns: repeat(x, 1fr);``` 
+```grid-template-columns: repeat(x, 1fr);```
 
 The rest is all the media which goes in [assets](assets)
 
 # How to run/compile the wesite
 
-Besides installing ```npm``` and ```node``` also install ```yarn``` (using ```npm install -g yarn```)
-For first time, run ```yarn``` to build all the files.
+Besides installing ```npm``` and ```node``` also install ```yarn``` (using ```npm install -g yarn```).
+
+For the first time you set up the project, run ```yarn``` to build all the files.
 
 For running the site locally execute:
 

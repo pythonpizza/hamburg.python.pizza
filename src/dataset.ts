@@ -76,6 +76,18 @@ export const SPONSORS: Sponsor[][] = [
             photo: require('Assets/sponsors/PySVlogo.png'),
             link: 'https://python-verband.org',
         },
+        {
+            id: 'PSF',
+            name: 'Python Software Foundation',
+            photo: require('Assets/sponsors/psf-logo-narrow-256x84-alpha.png'),
+            link: 'https://www.python.org',
+        },
+        {
+            id: 'Yelp',
+            name: 'Yelp',
+            photo: require('Assets/sponsors/yelp_fullcolor.png'),
+            link: 'https://www.yelp.com',
+        },
     ],
     /* [
          {

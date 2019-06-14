@@ -12,53 +12,54 @@ const VALERIO_MAGGIO = 6;
 const ELENA_NIEDDU = 7;
 
 export const SPEAKERS: Speaker[] = [
-    /*   {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Bit4id',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Women Techmakers',
-           social: 'https://twitter.com/fiorella_deluca',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Lotrek',
-           social: 'https://twitter.com/4stagi',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Lotrek',
-           social: 'https://twitter.com/owanesh',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Intel Student Ambassador',
-           social: 'https://twitter.com/vinx_key',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Nephila',
-           social: 'https://twitter.com/yakkys',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Fondazione Bruno Kessler',
-           social: 'https://twitter.com/leriomaggio',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'PhD student in Computer Science',
-           social: 'https://www.linkedin.com/in/elena-nieddu-b06896154/',
-       },*/
+    {
+        name: 'Ellen Könnig',
+        photo: require('Assets/speakers/ellenK.jpg'),
+        job: 'Senior Data Scientist at Humanitec',
+        social: 'https://twitter.com/ellen_koenig'
+    },
+    {
+        name: 'Christian Barra',
+        photo: require('Assets/speakers/christianB.jpeg'),
+        job: 'Senior Developer at INFARM',
+        social: 'https://twitter.com/christianbarra',
+    },
+    /*    {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'Lotrek',
+            social: 'https://twitter.com/4stagi',
+        },
+        {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'Lotrek',
+            social: 'https://twitter.com/owanesh',
+        },
+        {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'Intel Student Ambassador',
+            social: 'https://twitter.com/vinx_key',
+        },
+        {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'Nephila',
+            social: 'https://twitter.com/yakkys',
+        },
+        {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'Fondazione Bruno Kessler',
+            social: 'https://twitter.com/leriomaggio',
+        },
+        {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'PhD student in Computer Science',
+            social: 'https://www.linkedin.com/in/elena-nieddu-b06896154/',
+        },*/
 ];
 
 export const SPONSORS: Sponsor[][] = [

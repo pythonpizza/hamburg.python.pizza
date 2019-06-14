@@ -21,7 +21,7 @@ export const SPEAKERS: Speaker[] = [
     {
         name: 'Christian Barra',
         photo: require('Assets/speakers/christianB.jpeg'),
-        job: 'Senior Developer at INFARM',
+        job: 'Senior Software Engineer at INFARM',
         social: 'https://twitter.com/christianbarra',
     },
     /*    {

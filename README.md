@@ -6,11 +6,11 @@ It has been edited by a frontend amateur surfer not a pro so .. I am adding some
 The template is pretty self explanatory, so main things for the future:
 
  - speakers, sponsors and schedule data have to be added to [dataset](src/dataset.ts)
- - COC template definition to be edited in: [Coc](src/Components/Home/Coc.tsx )
- - CFP information can be added in: [home](src/Components/Home/Speakers.tsx)
+ - COC template definition to be edited in: [Coc](src/Components/Home/Sections/Coc.tsx )
+ - CFP information can be added in: [home](src/Components/Home/Sections/Speakers.tsx)
  - link to ticket information to be added to: [header](src/Components/Header/index.tsx)
 
-When having only *x* sponsors in the array please edit the CSS template for the [SponsorsShocase](src/Components/SponsorsShocase/index.css), by changing the elements last-child and first-child to have
+When having only *x* sponsors in the array please edit the CSS template for the [SponsorsShowcase](src/Components/SponsorsShowcase/index.css), by changing the elements last-child and first-child to have
 
 ```grid-template-columns: repeat(x, 1fr);```
 

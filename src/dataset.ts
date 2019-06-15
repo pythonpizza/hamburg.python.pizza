@@ -12,53 +12,54 @@ const VALERIO_MAGGIO = 6;
 const ELENA_NIEDDU = 7;
 
 export const SPEAKERS: Speaker[] = [
-    /*   {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Bit4id',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Women Techmakers',
-           social: 'https://twitter.com/fiorella_deluca',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Lotrek',
-           social: 'https://twitter.com/4stagi',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Lotrek',
-           social: 'https://twitter.com/owanesh',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Intel Student Ambassador',
-           social: 'https://twitter.com/vinx_key',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Nephila',
-           social: 'https://twitter.com/yakkys',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'Fondazione Bruno Kessler',
-           social: 'https://twitter.com/leriomaggio',
-       },
-       {
-           name: 'TBA',
-           photo: 'https://via.placeholder.com/150',
-           job: 'PhD student in Computer Science',
-           social: 'https://www.linkedin.com/in/elena-nieddu-b06896154/',
-       },*/
+    {
+        name: 'Ellen Könnig',
+        photo: require('Assets/speakers/ellenK.jpg'),
+        job: 'Senior Data Scientist at Humanitec',
+        social: 'https://twitter.com/ellen_koenig'
+    },
+    {
+        name: 'Christian Barra',
+        photo: require('Assets/speakers/christianB.jpeg'),
+        job: 'Senior Software Engineer at INFARM',
+        social: 'https://twitter.com/christianbarra',
+    },
+    /*    {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'Lotrek',
+            social: 'https://twitter.com/4stagi',
+        },
+        {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'Lotrek',
+            social: 'https://twitter.com/owanesh',
+        },
+        {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'Intel Student Ambassador',
+            social: 'https://twitter.com/vinx_key',
+        },
+        {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'Nephila',
+            social: 'https://twitter.com/yakkys',
+        },
+        {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'Fondazione Bruno Kessler',
+            social: 'https://twitter.com/leriomaggio',
+        },
+        {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'PhD student in Computer Science',
+            social: 'https://www.linkedin.com/in/elena-nieddu-b06896154/',
+        },*/
 ];
 
 export const SPONSORS: Sponsor[][] = [
@@ -74,6 +75,18 @@ export const SPONSORS: Sponsor[][] = [
             name: 'Python Software Verband',
             photo: require('Assets/sponsors/PySVlogo.png'),
             link: 'https://python-verband.org',
+        },
+        {
+            id: 'PSF',
+            name: 'Python Software Foundation',
+            photo: require('Assets/sponsors/psf-logo-narrow-256x84-alpha.png'),
+            link: 'https://www.python.org',
+        },
+        {
+            id: 'Yelp',
+            name: 'Yelp',
+            photo: require('Assets/sponsors/yelp_fullcolor.png'),
+            link: 'https://www.yelp.com',
         },
     ],
     /* [

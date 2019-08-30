@@ -16,7 +16,7 @@ export const SPEAKERS: Speaker[] = [
         name: 'Ellen Könnig',
         photo: require('Assets/speakers/ellenK.jpg'),
         job: 'Senior Data Scientist at Humanitec',
-        social: 'https://twitter.com/ellen_koenig'
+        social: 'https://twitter.com/ellen_koenig',
     },
     {
         name: 'Christian Barra',
@@ -87,6 +87,12 @@ export const SPONSORS: Sponsor[][] = [
             name: 'Yelp',
             photo: require('Assets/sponsors/yelp_fullcolor.png'),
             link: 'https://www.yelp.com',
+        },
+        {
+            id: 'FREENOW',
+            name: 'FREE NOW',
+            photo: require('Assets/sponsors/FREE_NOW_Logo_positiv_rgb.png'),
+            link: 'https://free-now.com/',
         },
     ],
     /* [

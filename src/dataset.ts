@@ -13,7 +13,7 @@ const ELENA_NIEDDU = 7;
 
 export const SPEAKERS: Speaker[] = [
     {
-        name: 'Ellen Könnig',
+        name: 'Ellen König',
         photo: require('Assets/speakers/ellenK.jpg'),
         job: 'Senior Data Scientist at Humanitec',
         social: 'https://twitter.com/ellen_koenig',

@@ -18,20 +18,22 @@ export default class Speakers extends React.Component {
                     <Container size={Sizes.small}>
                         <h1>Keynotes</h1>
                     </Container>
-                    {<Grid>
-                        {this.shuffleArray(SPEAKERS).map((speaker, i) => <SpeakerCard key={i} speaker={speaker} />)}
-                    </Grid>}
+                    {
+                        <Grid>
+                            {this.shuffleArray(SPEAKERS).map((speaker, i) => <SpeakerCard key={i} speaker={speaker} />)}
+                        </Grid>
+                    }
                     <Container size={Sizes.small}>
                         <h1>Speakers</h1>
-                        <p>The <a
-                            href="https://forms.gle/Hfdba6uCzeUrbmXM9"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            CFP
-                            </a> is open!!! You have until 7th September to apply! Each talk will be 10 minutes long and we would love to have many first time speakers!!</p>
+                        <p>
+                            The{' '}
+                            <a href="https://forms.gle/Hfdba6uCzeUrbmXM9" target="_blank" rel="noopener noreferrer">
+                                CFP
+                            </a>{' '}
+                            is open!!! You have until 15th September to apply! Each talk will be 10 minutes long and we
+                            would love to have many first time speakers!!
+                        </p>
                     </Container>
-
                 </Container>
             </section>
         );

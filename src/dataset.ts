@@ -11,7 +11,7 @@ const IACOPO_SPALLETTI = 5;
 const VALERIO_MAGGIO = 6;
 const ELENA_NIEDDU = 7;
 
-export const SPEAKERS: Speaker[] = [
+export const KEYSPEAKERS: Speaker[] = [
     {
         name: 'Ellen König',
         photo: require('Assets/speakers/ellenK.jpg'),

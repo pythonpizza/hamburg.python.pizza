@@ -61,6 +61,57 @@ export const KEYSPEAKERS: Speaker[] = [
             social: 'https://www.linkedin.com/in/elena-nieddu-b06896154/',
         },*/
 ];
+export const SPEAKERS: Speaker[] = [
+    {
+        name: 'Christian Heimes',
+        photo: require('Assets/speakers/christian-heimes.jpg'),
+        job: 'Princinpal Software Engineer at Red Hat',
+        social: 'https://twitter.com/ChristianHeimes',
+    },
+    {
+        name: 'Jessica Greene',
+        photo: require('Assets/speakers/jessica.jpeg'),
+        job: 'Software Developer at Ecosia',
+        social: 'https://twitter.com/sleepypioneer',
+    },
+    {
+        name: 'Cristián Maureira-Fredes',
+        photo: require('Assets/speakers/cmaureir.jpg'),
+        job: 'R&D Software Engineer at The Qt Company and Astrophysicist',
+        social: 'https://twitter.com/cmaureir',
+    },
+    {
+        name: 'Izis Filipaldi',
+        photo: require('Assets/speakers/izis.jpg'),
+        job: 'Agile Transformation Lead at The Mobility House',
+        social: 'https://twitter.com/owanesh',
+    },
+    {
+        name: 'Avaré Stewart',
+        photo: require('Assets/speakers/avare.jpeg'),
+        job: 'Senior Data Scientist at EOS DID GmbH',
+        social: 'https://twitter.com/avare.stewart',
+    },
+    /*
+        {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'Nephila',
+            social: 'https://twitter.com/yakkys',
+        },
+        {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'Fondazione Bruno Kessler',
+            social: 'https://twitter.com/leriomaggio',
+        },
+        {
+            name: 'TBA',
+            photo: 'https://via.placeholder.com/150',
+            job: 'PhD student in Computer Science',
+            social: 'https://www.linkedin.com/in/elena-nieddu-b06896154/',
+        },*/
+];
 
 export const SPONSORS: Sponsor[][] = [
     [

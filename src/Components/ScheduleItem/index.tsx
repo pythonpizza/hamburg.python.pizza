@@ -58,12 +58,13 @@ export default class ScheduleItem extends React.Component<ScheduleItemProps, {}>
         });
 
         const SpeakerNameTag = isTalk && speaker!.social ? 'a' : 'p';
+        const title = isTalk ? speaker!.title : schedule.title;
 
         return (
             <li className={scheduleItemClasses}>
                 {isTalk && <div className={imageClasses} style={{ backgroundImage: `url(${speaker!.photo})` }} />}
                 <div className="schedule-item--info">
-                    <h2>{schedule.title}</h2>
+                    <h2>{title}</h2>
                     {isTalk && (
                         <SpeakerNameTag target="_blank" rel="noopener noreferrer" href={speaker!.social}>
                             {speaker!.name}

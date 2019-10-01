@@ -3,4 +3,5 @@ export default interface Speaker {
     photo: string;
     job?: string;
     social?: string;
+    title: string;
 }

@@ -2,14 +2,18 @@ import Speaker from '@/Types/Speaker';
 import Sponsor from '@/Types/Sponsor';
 import Schedule, { Types } from '@/Types/Schedule';
 
-const DOMENICO_TESTA = 0;
-const FIORELLA_DE_LUCA = 1;
-const ANDREA_STAGI = 2;
-const SALVATORE_BUSIELLO = 3;
-const VINCENZO_SANTOPIETRO = 4;
-const IACOPO_SPALLETTI = 5;
-const VALERIO_MAGGIO = 6;
-const ELENA_NIEDDU = 7;
+const KEY_1 = 0;
+const KEY_2 = 1;
+const SP_1 = 2;
+const SP_2 = 3;
+const SP_3 = 4;
+const SP_4 = 5;
+const SP_5 = 6;
+const SP_6 = 7;
+const SP_7 = 8;
+const SP_8 = 9;
+const SP_9 = 10;
+const SP_10 = 11;
 
 export const KEYSPEAKERS: Speaker[] = [
     {
@@ -17,12 +21,14 @@ export const KEYSPEAKERS: Speaker[] = [
         photo: require('Assets/speakers/ellenK.jpg'),
         job: 'Senior Data Scientist at Humanitec',
         social: 'https://twitter.com/ellen_koenig',
+        title: 'Will tech save us?',
     },
     {
         name: 'Christian Barra',
         photo: require('Assets/speakers/christianB.jpeg'),
         job: 'Senior Software Engineer at INFARM',
         social: 'https://twitter.com/christianbarra',
+        title: 'Will tech save us?',
     },
     /*    {
             name: 'TBA',
@@ -63,34 +69,86 @@ export const KEYSPEAKERS: Speaker[] = [
 ];
 export const SPEAKERS: Speaker[] = [
     {
+        name: 'Christian Barra',
+        photo: require('Assets/speakers/christianB.jpeg'),
+        job: 'Senior Software Engineer at INFARM',
+        social: 'https://twitter.com/christianbarra',
+        title: 'Will tech save us?',
+    },
+    {
+        name: 'Ellen König',
+        photo: require('Assets/speakers/ellenK.jpg'),
+        job: 'Senior Data Scientist at Humanitec',
+        social: 'https://twitter.com/ellen_koenig',
+        title: 'How can we make the world a better place with technology',
+    },
+    {
+        name: 'Izis Filipaldi',
+        photo: require('Assets/speakers/izis.jpg'),
+        job: 'Agile Transformation Lead at The Mobility House',
+        social: 'https://twitter.com/IzisFilipaldi',
+        title: 'How can I better estimate my tasks during the Sprint Planning?',
+    },
+    {
         name: 'Christian Heimes',
         photo: require('Assets/speakers/christian-heimes.jpg'),
         job: 'Princinpal Software Engineer at Red Hat',
         social: 'https://twitter.com/ChristianHeimes',
+        title: 'ssl module 101',
+    },
+    {
+        name: 'Philipp Wallhäuser',
+        photo: require('Assets/speakers/philippW.jpg'),
+        title: 'Foo Bar 123 - stop defining test-data ',
     },
     {
         name: 'Jessica Greene',
         photo: require('Assets/speakers/jessica.jpeg'),
         job: 'Software Developer at Ecosia',
         social: 'https://twitter.com/sleepypioneer',
+        title: 'Algorithmic Python',
     },
     {
         name: 'Cristián Maureira-Fredes',
         photo: require('Assets/speakers/cmaureir.jpg'),
         job: 'R&D Software Engineer at The Qt Company and Astrophysicist',
         social: 'https://twitter.com/cmaureir',
+        title: 'A dive into CPython',
     },
     {
-        name: 'Izis Filipaldi',
-        photo: require('Assets/speakers/izis.jpg'),
-        job: 'Agile Transformation Lead at The Mobility House',
-        social: 'https://twitter.com/owanesh',
+        name: 'Mounir Afifi',
+        photo: require('Assets/speakers/mounir.png'),
+        social: 'https://twitter.com/ideophagous',
+        title: 'igraph... and so should you',
     },
+
     {
         name: 'Avaré Stewart',
         photo: require('Assets/speakers/avare.jpeg'),
         job: 'Senior Data Scientist at EOS DID GmbH',
         social: 'https://twitter.com/avare.stewart',
+        title: 'Automated Machine Learning in Practice',
+    },
+    {
+        name: 'Aleksandr Zuravliov',
+        photo: require('Assets/speakers/aleksander.jpg'),
+        social: 'https://twitter.com/avare.stewart',
+        title: 'From Tech to Leadership',
+    },
+    {
+        name: 'Thiago Medeiros',
+        photo: require('Assets/speakers/thiago.png'),
+        job: 'Senior Data Scientist at EOS DID GmbH',
+        social: 'https://twitter.com/medeirosthiiago',
+        title: 'Func! Just @wrap it!',
+    },
+
+    {
+        name: 'Anastasiia Tymoshchuk',
+        photo: require('Assets/speakers/anastasiia.jpg'),
+        job: 'Senior Data Scientist at EOS DID GmbH',
+        social: 'https://twitter.com/anastasiatymo',
+        title: 'Job of your dreams: reality or illusion?',
     },
     /*
         {
@@ -169,53 +227,109 @@ export const SPONSORS: Sponsor[][] = [
 ];
 
 export const SCHEDULE: Schedule[] = [
-    /* {
-         order: 0,
-         time: '10:00',
-         title: 'Welcome',
-         type: Types.OTHER,
-     },
-     {
-         order: 1,
-         time: '10:30',
-         title: 'Intro',
-         type: Types.OTHER,
-     },
-     {
-         order: 2,
-         time: '10:45',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: ELENA_NIEDDU,
-     },
-     {
-         order: 3,
-         time: '11:30',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: DOMENICO_TESTA,
-     },
-     {
-         order: 4,
-         time: '12:15',
-         title: 'Break',
-         type: Types.BREAK,
-     },
-     {
-         order: 5,
-         time: '12:30',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: IACOPO_SPALLETTI,
-     },
-     {
-         order: 6,
-         time: '13:15',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: VINCENZO_SANTOPIETRO,
-     },
-     {
+    {
+        order: 0,
+        time: '10:00',
+        title: 'Welcome',
+        type: Types.OTHER,
+    },
+    {
+        order: 1,
+        time: '10:30',
+        title: 'Intro',
+        type: Types.OTHER,
+    },
+    {
+        order: 2,
+        time: '10:45',
+        type: Types.TALK,
+        speaker: KEY_1,
+    },
+    {
+        order: 3,
+        time: '11:15',
+        type: Types.TALK,
+        speaker: SP_1,
+    },
+    {
+        order: 4,
+        time: '11:27',
+        type: Types.TALK,
+        speaker: SP_2,
+    },
+    {
+        order: 5,
+        time: '11:39',
+        type: Types.TALK,
+        speaker: SP_3,
+    },
+    {
+        order: 6,
+        time: '11:51',
+        type: Types.TALK,
+        speaker: SP_4,
+    },
+    {
+        order: 7,
+        time: '12:03',
+        title: 'Break',
+        type: Types.BREAK,
+    },
+    {
+        order: 8,
+        time: '12:30',
+        type: Types.TALK,
+        speaker: SP_5,
+    },
+    {
+        order: 9,
+        time: '12:42',
+        type: Types.TALK,
+        speaker: SP_6,
+    },
+    {
+        order: 10,
+        time: '12:54',
+        type: Types.TALK,
+        speaker: SP_7,
+    },
+    {
+        order: 11,
+        time: '13:06',
+        type: Types.TALK,
+        speaker: SP_8,
+    },
+    {
+        order: 12,
+        time: '13:18',
+        type: Types.TALK,
+        speaker: SP_9,
+    },
+    {
+        order: 12,
+        time: '13:30',
+        title: 'Pizza!',
+        type: Types.LUNCH,
+    },
+    {
+        order: 13,
+        time: '14:30',
+        type: Types.TALK,
+        speaker: KEY_2,
+    },
+    {
+        order: 12,
+        time: '15:00',
+        type: Types.TALK,
+        speaker: SP_10,
+    },
+    {
+        order: 0,
+        time: '15:12',
+        title: 'TO be continued',
+        type: Types.OTHER,
+    },
+    /*{
          order: 7,
          time: '14:00',
          title: 'Pizza!',

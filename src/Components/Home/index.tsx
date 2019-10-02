@@ -19,6 +19,7 @@ export default class Home extends React.Component {
                 <About />
                 <PyLadiesPanel />
                 <Speakers />
+                <Schedule />
                 <Sponsors />
                 <Coc />
             </div>

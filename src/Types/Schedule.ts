@@ -9,6 +9,6 @@ export default interface Schedule {
     order: number;
     time: string;
     type: Types;
-    title: string;
     speaker?: number;
+    title?: string;
 }

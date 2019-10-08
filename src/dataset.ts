@@ -24,6 +24,7 @@ const SP_17 = 18;
 const SP_18 = 19;
 const SP_19 = 20;
 const SP_20 = 21;
+const SP_21 = 22;
 
 export const KEYSPEAKERS: Speaker[] = [
     {
@@ -369,20 +370,20 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 12,
         time: '13:03',
-        type: Types.TALK,
-        speaker: SP_9,
-    },
-    {
-        order: 12,
-        time: '13:15',
         title: 'Pizza!',
         type: Types.LUNCH,
     },
     {
         order: 13,
-        time: '15:00',
+        time: '15:06',
         type: Types.TALK,
         speaker: KEY_2,
+    },
+    {
+        order: 12,
+        time: '15:18',
+        type: Types.TALK,
+        speaker: SP_9,
     },
     {
         order: 12,
@@ -439,26 +440,32 @@ export const SCHEDULE: Schedule[] = [
         speaker: SP_17,
     },
     {
-        order: 19,
+        order: 20,
         time: '17:38',
         type: Types.TALK,
         speaker: SP_18,
     },
     {
-        order: 19,
+        order: 21,
         time: '17:52',
         type: Types.TALK,
         speaker: SP_19,
     },
     {
-        order: 19,
+        order: 22,
         time: '18:06',
         type: Types.TALK,
         speaker: SP_20,
     },
     {
-        order: 13,
+        order: 23,
         time: '18:20',
+        type: Types.TALK,
+        speaker: SP_21,
+    },
+    {
+        order: 23,
+        time: '18:32',
         title: 'Outro & Drinks',
         type: Types.OTHER,
     },

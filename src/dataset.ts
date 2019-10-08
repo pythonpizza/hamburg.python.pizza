@@ -375,7 +375,7 @@ export const SCHEDULE: Schedule[] = [
     },
     {
         order: 13,
-        time: '15:06',
+        time: '14:45',
         type: Types.TALK,
         speaker: KEY_2,
     },

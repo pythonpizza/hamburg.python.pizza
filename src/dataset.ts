@@ -264,7 +264,14 @@ export const SPONSORS: Sponsor[][] = [
             link: 'https://www.europython-society.org/',
         },
     ],
-    /* [
+    /* 
+           {
+            id: 'pizza',
+            name: 'IlLocale',
+            photo: require('Assets/sponsors/il_locale_logo.png'),
+            link: 'http://www.il-locale.de',
+        },
+    [
          {
              id: 'pythonitalia',
              name: 'TBA',

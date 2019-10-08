@@ -35,18 +35,18 @@
 
     @media (--tablet) {
         &--row {
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(6, 1fr);
 
             &:first-child {
-                grid-template-columns: repeat(5, 1fr);
+                grid-template-columns: repeat(6, 1fr);
             }
 
             &:last-child {
-                grid-template-columns: repeat(5, 1fr);
+                grid-template-columns: repeat(6, 1fr);
             }
 
             #bit4id {
-                grid-column-start: 5;
+                grid-column-start: 6;
             }
         }
     }

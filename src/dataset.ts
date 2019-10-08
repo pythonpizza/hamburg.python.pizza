@@ -117,7 +117,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Mounir Afifi',
-        photo: require('Assets/speakers/mounir.png'),
+        photo: require('Assets/speakers/mounir.jpg'),
         social: 'https://twitter.com/ideophagous',
         title: 'igraph... and so should you',
     },
@@ -202,6 +202,12 @@ export const SPONSORS: Sponsor[][] = [
             name: 'FREE NOW',
             photo: require('Assets/sponsors/FREE_NOW_Logo_positiv_rgb.png'),
             link: 'https://free-now.com/',
+        },
+        {
+            id: 'EuroPython',
+            name: 'EuroPython Society',
+            photo: require('Assets/sponsors/eps-text.png'),
+            link: 'https://www.europython-society.org/',
         },
     ],
     /* [

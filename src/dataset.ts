@@ -14,6 +14,17 @@ const SP_7 = 8;
 const SP_8 = 9;
 const SP_9 = 10;
 const SP_10 = 11;
+const SP_11 = 12;
+const SP_12 = 13;
+const SP_13 = 14;
+const SP_14 = 15;
+const SP_15 = 16;
+const SP_16 = 17;
+const SP_17 = 18;
+const SP_18 = 19;
+const SP_19 = 20;
+const SP_20 = 21;
+const SP_21 = 22;
 
 export const KEYSPEAKERS: Speaker[] = [
     {
@@ -117,7 +128,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Mounir Afifi',
-        photo: require('Assets/speakers/mounir.png'),
+        photo: require('Assets/speakers/mounir.jpg'),
         social: 'https://twitter.com/ideophagous',
         title: 'igraph... and so should you',
     },
@@ -138,37 +149,81 @@ export const SPEAKERS: Speaker[] = [
     {
         name: 'Thiago Medeiros',
         photo: require('Assets/speakers/thiago.png'),
-        job: 'Senior Data Scientist at EOS DID GmbH',
         social: 'https://twitter.com/medeirosthiiago',
         title: 'Func! Just @wrap it!',
     },
-
+    {
+        name: 'Caio Miyashiro',
+        photo: require('Assets/speakers/caiom.png'),
+        social: 'https://twitter.com/CaioMiyashiro',
+        title: '"What are you trying to find?" A quick guide for an effective exploratory data analysis',
+    },
+    {
+        name: 'Rishabh Saxena',
+        photo: require('Assets/speakers/Rishabh.jpeg'),
+        social: 'https://twitter.com/equate_rs',
+        title: 'Building robust APIs without broken clients',
+    },
     {
         name: 'Anastasiia Tymoshchuk',
         photo: require('Assets/speakers/anastasiia.jpg'),
-        job: 'Senior Data Scientist at EOS DID GmbH',
         social: 'https://twitter.com/anastasiatymo',
         title: 'Job of your dreams: reality or illusion?',
     },
-    /*
-        {
-            name: 'TBA',
-            photo: 'https://via.placeholder.com/150',
-            job: 'Nephila',
-            social: 'https://twitter.com/yakkys',
-        },
-        {
-            name: 'TBA',
-            photo: 'https://via.placeholder.com/150',
-            job: 'Fondazione Bruno Kessler',
-            social: 'https://twitter.com/leriomaggio',
-        },
-        {
-            name: 'TBA',
-            photo: 'https://via.placeholder.com/150',
-            job: 'PhD student in Computer Science',
-            social: 'https://www.linkedin.com/in/elena-nieddu-b06896154/',
-        },*/
+    {
+        name: 'Martin Volk',
+        photo: require('Assets/speakers/nopic.png'),
+        title: 'How to train a private machine learning model on sensitive data',
+    },
+    {
+        name: 'Francesco Mucio',
+        photo: require('Assets/speakers/mucio.png'),
+        social: 'https://twitter.com/mucio',
+        title: '(lambda title: print(title))("Title for your talk")',
+    },
+    {
+        name: 'Maria Jose Molina-Contreras',
+        photo: require('Assets/speakers/maria.jpeg'),
+        social: 'https://twitter.com/MJ_BIO',
+        title:
+            'Oh no, I forgot to water my plant! The funny but practical story of how python helped my plants to survive (or not).',
+    },
+    {
+        name: 'Meziane Hadjadj',
+        photo: require('Assets/speakers/meziane.png'),
+        social: 'https://twitter.com/MezianeHadjadj',
+        title: 'Good practices on Code refactoring.',
+    },
+    {
+        name: 'Alexander CS Hendorf',
+        photo: require('Assets/speakers/hendorf.png'),
+        social: 'https://twitter.com/hendorf',
+        title: 'AI for Managers - Lessons Learned',
+    },
+    {
+        name: 'Emily Woods',
+        photo: require('Assets/speakers/emily.png'),
+        social: 'https://twitter.com/sometimes_milo',
+        title: 'Aw-yay! Automating the day-to-day',
+    },
+    {
+        name: 'Łukasz Langa',
+        photo: require('Assets/speakers/llanga.png'),
+        social: 'https://twitter.com/llanga',
+        title: 'Designing Around Immutability',
+    },
+    {
+        name: 'Jose Martin',
+        photo: require('Assets/speakers/jose.png'),
+        social: 'https://twitter.com/gotche',
+        title: 'Defeating bike shedding',
+    },
+    {
+        name: 'Daniele Esposti',
+        photo: require('Assets/speakers/nopic.png'),
+        social: 'https://twitter.com/Esposti',
+        title: 'Transpiling: a quick journey from Python to Python',
+    },
 ];
 
 export const SPONSORS: Sponsor[][] = [
@@ -203,8 +258,21 @@ export const SPONSORS: Sponsor[][] = [
             photo: require('Assets/sponsors/FREE_NOW_Logo_positiv_rgb.png'),
             link: 'https://free-now.com/',
         },
+        {
+            id: 'EuroPython',
+            name: 'EuroPython Society',
+            photo: require('Assets/sponsors/eps-text.png'),
+            link: 'https://www.europython-society.org/',
+        },
     ],
-    /* [
+    /* 
+           {
+            id: 'pizza',
+            name: 'IlLocale',
+            photo: require('Assets/sponsors/il_locale_logo.png'),
+            link: 'http://www.il-locale.de',
+        },
+    [
          {
              id: 'pythonitalia',
              name: 'TBA',
@@ -241,92 +309,164 @@ export const SCHEDULE: Schedule[] = [
     },
     {
         order: 2,
-        time: '10:30',
+        time: '10:20',
         type: Types.TALK,
         speaker: KEY_1,
     },
     {
         order: 3,
-        time: '11:00',
+        time: '10:50',
         type: Types.TALK,
         speaker: SP_1,
     },
     {
         order: 4,
-        time: '11:12',
+        time: '11:02',
         type: Types.TALK,
         speaker: SP_2,
     },
     {
         order: 5,
-        time: '11:24',
+        time: '11:14',
         type: Types.TALK,
         speaker: SP_3,
     },
     {
         order: 6,
-        time: '11:36',
+        time: '11:26',
         type: Types.TALK,
         speaker: SP_4,
     },
     {
         order: 7,
-        time: '11:48',
+        time: '11:38',
         title: 'Break',
         type: Types.BREAK,
     },
     {
         order: 8,
-        time: '12:15',
+        time: '12:00',
         type: Types.TALK,
         speaker: SP_5,
     },
     {
         order: 9,
-        time: '12:27',
+        time: '12:12',
         type: Types.TALK,
         speaker: SP_6,
     },
     {
         order: 10,
-        time: '12:39',
+        time: '12:24',
         type: Types.TALK,
         speaker: SP_7,
     },
     {
         order: 11,
-        time: '12:51',
+        time: '12:36',
         type: Types.TALK,
         speaker: SP_8,
     },
     {
         order: 12,
-        time: '13:03',
+        time: '15:48',
         type: Types.TALK,
         speaker: SP_9,
     },
     {
         order: 12,
-        time: '13:15',
+        time: '13:00',
         title: 'Pizza!',
         type: Types.LUNCH,
     },
     {
         order: 13,
-        time: '14:30',
+        time: '14:45',
         type: Types.TALK,
         speaker: KEY_2,
     },
     {
         order: 12,
-        time: '15:00',
+        time: '15:15',
         type: Types.TALK,
         speaker: SP_10,
     },
     {
-        order: 0,
-        time: '15:12',
-        title: 'TO be continued',
+        order: 13,
+        time: '15:27',
+        type: Types.TALK,
+        speaker: SP_11,
+    },
+    {
+        order: 14,
+        time: '15:39',
+        type: Types.TALK,
+        speaker: SP_12,
+    },
+    {
+        order: 15,
+        time: '15:51',
+        type: Types.TALK,
+        speaker: SP_13,
+    },
+    {
+        order: 16,
+        time: '16:03',
+        type: Types.TALK,
+        speaker: SP_14,
+    },
+    {
+        order: 10,
+        time: '16:15',
+        title: 'Break',
+        type: Types.BREAK,
+    },
+    {
+        order: 17,
+        time: '16:45',
+        type: Types.TALK,
+        speaker: SP_15,
+    },
+    {
+        order: 18,
+        time: '15:57',
+        type: Types.TALK,
+        speaker: SP_16,
+    },
+    {
+        order: 19,
+        time: '17:09',
+        type: Types.TALK,
+        speaker: SP_17,
+    },
+    {
+        order: 20,
+        time: '17:21',
+        type: Types.TALK,
+        speaker: SP_18,
+    },
+    {
+        order: 21,
+        time: '17:33',
+        type: Types.TALK,
+        speaker: SP_19,
+    },
+    {
+        order: 22,
+        time: '17:45',
+        type: Types.TALK,
+        speaker: SP_20,
+    },
+    {
+        order: 23,
+        time: '17:57',
+        type: Types.TALK,
+        speaker: SP_21,
+    },
+    {
+        order: 23,
+        time: '18:09',
+        title: 'Outro & Drinks',
         type: Types.OTHER,
     },
     /*{

@@ -172,7 +172,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Martin Volk',
-        photo: require('Assets/speakers/nopic.png'),
+        photo: require('Assets/speakers/martin.jpg'),
         title: 'How to train a private machine learning model on sensitive data',
     },
     {
@@ -220,7 +220,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Daniele Esposti',
-        photo: require('Assets/speakers/nopic.png'),
+        photo: require('Assets/speakers/daniele.jpeg'),
         social: 'https://twitter.com/Esposti',
         title: 'Transpiling: a quick journey from Python to Python',
     },

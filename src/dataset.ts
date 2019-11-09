@@ -369,7 +369,7 @@ export const SCHEDULE: Schedule[] = [
     },
     {
         order: 12,
-        time: '15:48',
+        time: '12:48',
         type: Types.TALK,
         speaker: SP_9,
     },

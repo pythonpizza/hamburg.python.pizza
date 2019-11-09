@@ -353,7 +353,7 @@ export const SCHEDULE: Schedule[] = [
         order: 9,
         time: '12:12',
         type: Types.TALK,
-        speaker: SP_6,
+        speaker: SP_10,
     },
     {
         order: 10,
@@ -389,7 +389,7 @@ export const SCHEDULE: Schedule[] = [
         order: 12,
         time: '15:15',
         type: Types.TALK,
-        speaker: SP_10,
+        speaker: SP_21,
     },
     {
         order: 13,
@@ -454,12 +454,6 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 22,
         time: '17:45',
-        type: Types.TALK,
-        speaker: SP_21,
-    },
-    {
-        order: 23,
-        time: '17:57',
         title: 'Outro & Drinks',
         type: Types.OTHER,
     },

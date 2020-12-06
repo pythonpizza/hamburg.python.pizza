@@ -17,22 +17,26 @@ export default () => (
                 Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.
             </b></p>
             <h2>Expected Behavior</h2>
-            <ul>
-                <li>Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.</li>
+            <ul className="charS">
+
+                <li> Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.</li>
+                
                 <li> Exercise consideration and respect in your speech and actions.</li>
+            
                 <li> Attempt collaboration before conflict</li>
+             
                 <li> Use inclusive language</li>
-                {" "}
+          
                 <li> Refrain from demeaning, discriminatory, or harassing behavior and speech.</li>
-                {" "}
+           
                 <li> Be mindful of your surroundings and of your fellow participants.</li>
-                {" "}
+             
                 <li> Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.</li>
             </ul>
             <h2>Unacceptable Behavior</h2>
             <p>
                 Unacceptable behaviors include, but is not limited to:</p>
-            <ul  className="unacceptable">
+            <ul  className="charN">
                 <li>Abusive, discriminatory, derogatory or demeaning speech or actions</li>
                 <li>Sexual images in public spaces</li>
                 <li>Harassing, intimidation, stalking, or following</li>

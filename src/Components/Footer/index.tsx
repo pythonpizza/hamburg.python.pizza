@@ -1,44 +1,32 @@
-import * as React from "react";
+import * as React from 'react';
 
-import "./index.css";
+import './index.css';
 
-import Wave from "@/Components/Wave";
-import Container, { Sizes } from "@/Components/Container";
-
-const SOCIALS = [
-  {
-    name: "twitter",
-    icon: require("Assets/socials/twitter.png"),
-    link: "https://twitter.com/pythonpizzaconf/"
-  },
-  {
-    name: "instagram",
-    icon: require("Assets/socials/instagram.png"),
-    link: "https://www.instagram.com/python.pizza/"
-  }
-];
+import Wave from '@/Components/Wave';
+import Container, { Sizes } from '@/Components/Container';
+import { SOCIALS } from '@/dataset';
 
 export default class Footer extends React.Component {
-  render() {
-    return (
-      <div className="footer">
-        <Wave />
-        <Container size={Sizes.large}>
-          <div className="footer--socials">
-            {SOCIALS.map(social => (
-              <a
-                key={social.name}
-                id={social.name}
-                href={social.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={social.icon} />
-              </a>
-            ))}
-          </div>
-        </Container>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="footer">
+                <Wave />
+                <Container size={Sizes.large}>
+                    <div className="footer--socials">
+                        {SOCIALS.map((social) => (
+                            <a
+                                key={social.name}
+                                id={social.name}
+                                href={social.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img alt={social.name} src={social.icon} />
+                            </a>
+                        ))}
+                    </div>
+                </Container>
+            </div>
+        );
+    }
 }

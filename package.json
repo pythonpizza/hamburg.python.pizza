@@ -4,8 +4,8 @@
     "main": "src/index.js",
     "license": "MIT",
     "scripts": {
-        "dev": "./node_modules/.bin/poi develop",
-        "build": "./node_modules/.bin/poi build"
+        "dev": "poi --serve",
+        "build": "poi --prod"
     },
     "devDependencies": {
         "@poi/plugin-typescript": "10.2.0",
@@ -14,7 +14,7 @@
         "eslint": "^4.5.0",
         "eslint-config-synacor": "^1.1.0",
         "if-env": "^1.0.0",
-        "poi": "10.2.9",
+        "poi": "^12.7.5",
         "react-hot-loader": "4.3.3"
     },
     "dependencies": {

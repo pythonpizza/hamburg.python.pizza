@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import SVGInline from 'react-svg-inline';
+import Container, { Sizes } from '@/Components/Container';
+import Logo from '@/Components/Logo';
 
 import './index.css';
-import Container, { Sizes } from '@/Components/Container';
 
 export default class Header extends React.Component {
     onNavClick(e: React.MouseEvent<HTMLAnchorElement>) {
@@ -27,7 +27,8 @@ export default class Header extends React.Component {
         return (
             <div className="header">
                 <Container size={Sizes.large}>
-                    <SVGInline className="header--logo" svg={require('Assets/logo.svg')} />
+                    <Logo className="header--logo" />
+
                     <ul className="header--links">
                         <li>
                             <a onClick={this.onNavClick} href="#about" data-destination="about">
@@ -38,6 +39,11 @@ export default class Header extends React.Component {
                         <li>
                             <a onClick={this.onNavClick} href="#sponsors" data-destination="sponsors">
                                 Sponsors
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://forms.gle/Hfdba6uCzeUrbmXM9" target="_blank" rel="noopener noreferrer">
+                                Call for Proposals
                             </a>
                         </li>
                         <li>

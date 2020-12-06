@@ -5,7 +5,7 @@ import './index.css';
 import Hero from '@/Components/Hero';
 
 import About from './Sections/About';
-import PyLadiesPanel from './Sections/PyLadiesPanel';
+import CFP from './Sections/CFP';
 import Schedule from './Sections/Schedule';
 import Sponsors from './Sections/Sponsors';
 import Speakers from './Sections/Speakers';
@@ -17,9 +17,7 @@ export default class Home extends React.Component {
             <div className="home">
                 <Hero />
                 <About />
-                <PyLadiesPanel />
-                <Speakers />
-                <Schedule />
+                <CFP />
                 <Sponsors />
                 <Coc />
             </div>
@@ -27,3 +25,4 @@ export default class Home extends React.Component {
     }
 }
 // <Schedule />
+//<Speakers />

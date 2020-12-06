@@ -20,7 +20,7 @@ export default class About extends React.Component {
                     <br />
                     <p>
                         Check out these past editions:{' '}
-                        <a href="https://hamburg.python.pizza/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://2019.hamburg.python.pizza/" target="_blank" rel="noopener noreferrer">
                             Hamburg Python Pizza
                         </a>{' '}
                         and{' '}

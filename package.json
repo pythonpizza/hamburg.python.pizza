@@ -33,6 +33,6 @@
         "tslint": "5.10.0",
         "typescript": "2.9.2",
         "typescript-eslint-parser": "16.0.0",
-        "yarn": "^1.15.2"
+        "yarn": "^1.22.0"
     }
 }

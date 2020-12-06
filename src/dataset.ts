@@ -1,6 +1,7 @@
 import Speaker from '@/Types/Speaker';
 import Sponsor from '@/Types/Sponsor';
 import Socials from '@/Types/Socials';
+import Organizer from '@/Types/Organizer';
 import Schedule, { Types } from '@/Types/Schedule';
 
 const KEY_1 = 0;
@@ -27,6 +28,26 @@ const SP_19 = 20;
 const SP_20 = 21;
 const SP_21 = 22;
 
+export const ORGANIZERS: Organizer[] = [
+    {
+        name: 'Tereza Iofciu',
+        photo: require('Assets/organizers/tereza.jpeg'),
+        job: 'Head Data Science Coach at Neuefische',
+        social: 'https://twitter.com/terezaif',
+    },
+    {
+        name: 'Yenny Cheung',
+        photo: require('Assets/organizers/yenny.jpg'),
+        job: 'Engineering Manager at Rasa',
+        social: 'https://twitter.com/yennycheung',
+    },
+    {
+        name: 'Alexander CS Hendorf',
+        photo: require('Assets/organizers/alexander.jpeg'),
+        job: 'Partner & Principal Consultant Data Science & AI at Königsweg',
+        social: 'https://twitter.com/hendorf',
+    },
+]
 export const KEYSPEAKERS: Speaker[] = [
    /*  {
         name: 'Ellen König',

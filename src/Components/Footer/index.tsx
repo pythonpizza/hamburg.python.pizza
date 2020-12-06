@@ -4,24 +4,7 @@ import './index.css';
 
 import Wave from '@/Components/Wave';
 import Container, { Sizes } from '@/Components/Container';
-
-const SOCIALS = [
-    {
-        name: 'facebook',
-        icon: require('Assets/socials/facebook.png'),
-        link: 'https://www.facebook.com/pythonpizza/',
-    },
-    {
-        name: 'twitter',
-        icon: require('Assets/socials/twitter.png'),
-        link: 'https://twitter.com/pythonpizzaconf/',
-    },
-    {
-        name: 'instagram',
-        icon: require('Assets/socials/instagram.png'),
-        link: 'https://www.instagram.com/python.pizza/',
-    },
-];
+import { SOCIALS } from '@/dataset';
 
 export default class Footer extends React.Component {
     render() {
@@ -30,7 +13,7 @@ export default class Footer extends React.Component {
                 <Wave />
                 <Container size={Sizes.large}>
                     <div className="footer--socials">
-                        {SOCIALS.map(social => (
+                        {SOCIALS.map((social) => (
                             <a
                                 key={social.name}
                                 id={social.name}
@@ -38,9 +21,8 @@ export default class Footer extends React.Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <img src={social.icon} />
+                                <img alt={social.name} src={social.icon} />
                             </a>
-
                         ))}
                         <p>Image copywright: Hamburg Police</p>
                     </div>

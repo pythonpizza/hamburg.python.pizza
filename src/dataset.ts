@@ -1,5 +1,6 @@
 import Speaker from '@/Types/Speaker';
 import Sponsor from '@/Types/Sponsor';
+import Socials from '@/Types/Socials';
 import Schedule, { Types } from '@/Types/Schedule';
 
 const KEY_1 = 0;
@@ -224,6 +225,19 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/Esposti',
         title: 'Transpiling: a quick journey from Python to Python',
     },*/
+];
+
+export const SOCIALS: Socials[] = [
+    {
+        name: 'twitter',
+        icon: require('Assets/socials/twitter.png'),
+        link: 'https://twitter.com/pythonpizzaconf/',
+    },
+    {
+        name: 'instagram',
+        icon: require('Assets/socials/ig.png'),
+        link: 'https://www.instagram.com/python.pizza/',
+    },
 ];
 
 export const SPONSORS: Sponsor[][] = [

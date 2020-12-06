@@ -24,7 +24,6 @@ export default class Footer extends React.Component {
                                 <img alt={social.name} src={social.icon} />
                             </a>
                         ))}
-                        <p>Image copywright: Hamburg Police</p>
                     </div>
                 </Container>
             </div>

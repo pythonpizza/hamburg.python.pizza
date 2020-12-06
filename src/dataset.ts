@@ -27,7 +27,7 @@ const SP_20 = 21;
 const SP_21 = 22;
 
 export const KEYSPEAKERS: Speaker[] = [
-   /* yar {
+   /*  {
         name: 'Ellen König',
         photo: require('Assets/speakers/ellenK.jpg'),
         job: 'Senior Data Scientist at Humanitec',

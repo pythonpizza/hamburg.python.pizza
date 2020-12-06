@@ -1,5 +1,6 @@
 import Speaker from '@/Types/Speaker';
 import Sponsor from '@/Types/Sponsor';
+import Socials from '@/Types/Socials';
 import Schedule, { Types } from '@/Types/Schedule';
 
 const KEY_1 = 0;
@@ -27,7 +28,7 @@ const SP_20 = 21;
 const SP_21 = 22;
 
 export const KEYSPEAKERS: Speaker[] = [
-    {
+   /*  {
         name: 'Ellen König',
         photo: require('Assets/speakers/ellenK.jpg'),
         job: 'Senior Data Scientist at Humanitec',
@@ -41,7 +42,7 @@ export const KEYSPEAKERS: Speaker[] = [
         social: 'https://twitter.com/christianbarra',
         title: 'Will tech save us?',
     },
-    /*    {
+       {
             name: 'TBA',
             photo: 'https://via.placeholder.com/150',
             job: 'Lotrek',
@@ -79,7 +80,7 @@ export const KEYSPEAKERS: Speaker[] = [
         },*/
 ];
 export const SPEAKERS: Speaker[] = [
-    {
+    /*{
         name: 'Christian Barra',
         photo: require('Assets/speakers/christianB.jpeg'),
         job: 'Senior Software Engineer at INFARM',
@@ -223,23 +224,31 @@ export const SPEAKERS: Speaker[] = [
         photo: require('Assets/speakers/daniele.jpeg'),
         social: 'https://twitter.com/Esposti',
         title: 'Transpiling: a quick journey from Python to Python',
+    },*/
+];
+
+export const SOCIALS: Socials[] = [
+    {
+        name: 'twitter',
+        icon: require('Assets/socials/twitter.png'),
+        link: 'https://twitter.com/pythonpizzaconf/',
+    },
+    {
+        name: 'instagram',
+        icon: require('Assets/socials/ig.png'),
+        link: 'https://www.instagram.com/python.pizza/',
     },
 ];
 
 export const SPONSORS: Sponsor[][] = [
     [
         {
-            id: 'sinnerschrader',
-            name: 'SinnerSchrader',
-            photo: require('Assets/sponsors/SinnerS_black.jpg'),
-            link: 'https://sinnerschrader.com',
-        },
-        {
             id: 'PySV',
             name: 'Python Software Verband',
             photo: require('Assets/sponsors/PySVlogo.png'),
             link: 'https://python-verband.org',
         },
+        /*
         {
             id: 'PSF',
             name: 'Python Software Foundation',
@@ -247,23 +256,12 @@ export const SPONSORS: Sponsor[][] = [
             link: 'https://www.python.org',
         },
         {
-            id: 'Yelp',
-            name: 'Yelp',
-            photo: require('Assets/sponsors/yelp_fullcolor.png'),
-            link: 'https://www.yelp.com',
-        },
-        {
-            id: 'FREENOW',
-            name: 'FREE NOW',
-            photo: require('Assets/sponsors/FREE_NOW_Logo_positiv_rgb.png'),
-            link: 'https://free-now.com/',
-        },
-        {
             id: 'EuroPython',
             name: 'EuroPython Society',
             photo: require('Assets/sponsors/eps-text.png'),
             link: 'https://www.europython-society.org/',
         },
+        */
     ],
     /* 
            {
@@ -295,7 +293,7 @@ export const SPONSORS: Sponsor[][] = [
 ];
 
 export const SCHEDULE: Schedule[] = [
-    {
+    /*{
         order: 0,
         time: '10:00',
         title: 'Welcome',
@@ -457,7 +455,7 @@ export const SCHEDULE: Schedule[] = [
         title: 'Outro & Drinks',
         type: Types.OTHER,
     },
-    /*{
+    {
          order: 7,
          time: '14:00',
          title: 'Pizza!',

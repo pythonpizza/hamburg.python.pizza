@@ -10,18 +10,10 @@ export default class Hero extends React.Component {
             <div className="hero">
                 <div className="hero--info">
                     <h1>Python Pizza</h1>
-                    <h2>
-                        <a target="_blank" rel="noopener noreferrer">
-                            Hamburg @ SinnerSchrader
-                        </a>
-                    </h2>
-                    <h2>
-                        <a target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/hZkkSa91pn1h8eZL9">
-                            Völckersstraße 38, 22765 Hamburg
-                        </a>
-                    </h2>
+                    <h2>Remote @ your couch 🛋️. Count down edition ⏰</h2>
                     <br />
-                    <h2>9 November 2019 / Doors open at 9:30</h2>
+                    <h2>Join us on New Year's Eve 🥳🎉🎈</h2>
+                    <h2>31 December 2020 </h2>
                 </div>
 
                 <Wave />

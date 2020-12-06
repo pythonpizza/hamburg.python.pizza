@@ -22,14 +22,17 @@ export default () => (
                 <li> Exercise consideration and respect in your speech and actions.</li>
                 <li> Attempt collaboration before conflict</li>
                 <li> Use inclusive language</li>
+                {" "}
                 <li> Refrain from demeaning, discriminatory, or harassing behavior and speech.</li>
+                {" "}
                 <li> Be mindful of your surroundings and of your fellow participants.</li>
+                {" "}
                 <li> Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.</li>
             </ul>
             <h2>Unacceptable Behavior</h2>
             <p>
                 Unacceptable behaviors include, but is not limited to:</p>
-            <ul>
+            <ul  className="unacceptable">
                 <li>Abusive, discriminatory, derogatory or demeaning speech or actions</li>
                 <li>Sexual images in public spaces</li>
                 <li>Harassing, intimidation, stalking, or following</li>

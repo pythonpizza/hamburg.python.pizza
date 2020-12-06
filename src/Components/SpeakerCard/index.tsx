@@ -1,12 +1,16 @@
 import * as React from 'react';
 import './index.css';
 import Speaker from '@/Types/Speaker';
+import Organizer from '@Types/Organizer';
 
 export interface SpeakerCardProps {
     speaker: Speaker;
 }
+export interface OrganizerCardProps {
+    speaker: Organizer;
+}
 
-export default class SpeakerCard extends React.Component<SpeakerCardProps, {}> {
+export default class SpeakerCard extends React.Component<SpeakerCardProps | OrganizerCardProps, {}> {
     render() {
         const { speaker } = this.props;
         return (

@@ -1,7 +1,6 @@
-export default interface Speaker {
+export default interface Organizer {
     name: string;
     photo: string;
     job?: string;
     social?: string;
-    title?: string;
 }

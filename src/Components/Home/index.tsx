@@ -6,6 +6,7 @@ import Hero from '@/Components/Hero';
 
 import About from './Sections/About';
 import CFP from './Sections/CFP';
+import Organizers from './Sections/Organizers';
 import Schedule from './Sections/Schedule';
 import Sponsors from './Sections/Sponsors';
 import Speakers from './Sections/Speakers';
@@ -17,6 +18,7 @@ export default class Home extends React.Component {
             <div className="home">
                 <Hero />
                 <About />
+                <Organizers />
                 <CFP />
                 <Sponsors />
                 <Coc />

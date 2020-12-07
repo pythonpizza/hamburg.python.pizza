@@ -16,7 +16,7 @@ When having only *x* sponsors in the array please edit the CSS template for the 
 
 The rest is all the media which goes in [assets](assets)
 
-# How to run/compile the wesite
+# How to run/compile the website
 
 Besides installing ```npm``` and ```node``` also install ```yarn``` (using ```npm install -g yarn```).
 

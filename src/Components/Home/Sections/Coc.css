@@ -30,11 +30,31 @@
     }
 
     ul {
-        list-style-type: '\2705  ';
-        padding-left: 2rem;
+        margin-left: 3rem;
+        list-style: none;
     }
-
-    ul.unacceptable {
-        list-style-type: '\274c  ';
+    ul li {
+        margin: 2rem 0;
+        position: relative;
+    }
+    ul.charS li::before {
+        content: ' ';
+        background-size: cover;
+        background-image: url(../../../../assets/noun_Check.svg);
+        width: 4rem;
+        height: 4rem;
+        position: absolute;
+        left: -4rem;
+        top: -0.6rem;
+    }
+    ul.charN li::before {
+        content: ' ';
+        background-size: cover;
+        background-image: url(../../../../assets/noun_X_2.svg);
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        left: -3rem;
+        top: 0.4rem;
     }
 }

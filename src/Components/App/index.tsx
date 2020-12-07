@@ -1,11 +1,10 @@
 import * as React from 'react';
-
 import * as smoothscroll from 'smoothscroll-polyfill';
+import { Helmet } from 'react-helmet';
 
 import Home from '@/Components/Home';
 import Header from '@/Components/Header';
 import Footer from '@/Components/Footer';
-import ReactGA from 'react-ga';
 
 import './reset.css';
 import './theme.css';
@@ -23,10 +22,22 @@ export default class App extends React.Component {
     }
 
     render() {
-        const trackingId = 'G-867PLZXE3D';
-        ReactGA.initialize(trackingId);
         return (
             <div>
+                <Helmet>
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-867PLZXE3D"></script>
+                    <script>
+                        {`
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+
+                            gtag('config', 'G-867PLZXE3D');
+                        `}
+                    </script>
+                    <title>Python Pizza Hamburg</title>
+                    <meta name="description" content="Python Pizza Hamburg is a micro conference" />
+                </Helmet>
                 <Header />
                 <Home />
                 <Footer />

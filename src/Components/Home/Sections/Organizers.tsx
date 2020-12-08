@@ -19,8 +19,8 @@ export default class Organizers extends React.Component {
                     <Container size={Sizes.medium}>
                         <h1>Organizers</h1>
                         <p>
-                            Here are your organizers 👾 for the Python Pizza countdown edition. Follow them on Twitter
-                            for the most up-to-date conferece announcements 📢!
+                            Here are your organizers 👾 for the Python Pizza New Year's Eve Party. Follow them on
+                            Twitter for the most up-to-date announcements 📢!
                         </p>
                     </Container>
                     <Grid>

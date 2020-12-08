@@ -7,17 +7,21 @@ export default class CFP extends React.Component {
         return (
             <section id="cfp">
                 <Container size={Sizes.medium}>
-                    <h1>CFP</h1>
+                    <h1>Call For Proposal by 20 Dec</h1>
                     <p>
-                        We encourage everybody who wants to join the conference to also apply and give a talk! Talks
-                        should be 10 minutes long and can be about anything you want to share on New Years Eve! You can
-                        talk about pizza, python, or working with people who do python or knowing people who do python..
-                        or pizza. We will take a short break at every hour to celebrate New Years in the matching Time
-                        Zone! This is why we ask for your local timezone so we can make sure your talk is before your
-                        New Years!
+                        Share with us your 💥<b>UNBORING</b>💥️ ideas! Each talk will be 10-min long. Here are some
+                        topics for your inspiration: Should we return to Python2 🐍? New hobbies during lock down, with
+                        or without Python. Living in a box for a year. The advent of code🎄, how do people code so fast?
+                        The ultimate sticker collection and the 2020 burnout. Pet parade 🐍🐈‍⬛🦖🐩 (show off your pets
+                        on camera!📸). Pizza 🍕 bake off costume party (feel free to dress up!). Telenovela 💃🏽 Python
+                        scripting.
                         <br></br>
                         <br></br>
-                        CFP link coming soon!
+                        Click{' '}
+                        <a href="https://pysv10.fe.rzob.gocept.net/en_GB/cfp" target="_blank">
+                            here
+                        </a>{' '}
+                        to apply and share the fun!
                     </p>
                 </Container>
             </section>

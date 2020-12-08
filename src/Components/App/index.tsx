@@ -35,8 +35,8 @@ export default class App extends React.Component {
                             gtag('config', 'G-867PLZXE3D');
                         `}
                     </script>
-                    <title>Python Pizza Hamburg</title>
-                    <meta name="description" content="Python Pizza Hamburg is a micro conference" />
+                    <title>Python Pizza New Years Party</title>
+                    <meta name="description" content="Python Pizza New Years Party" />
                 </Helmet>
                 <Header />
                 <Home />

@@ -47,7 +47,7 @@ export default class Header extends React.Component {
                             </a>
                         </li> */}
                         <li>
-                            <a href="https://forms.gle/Hfdba6uCzeUrbmXM9" target="_blank" rel="noopener noreferrer">
+                            <a href="https://pysv10.fe.rzob.gocept.net/en_GB/cfp" target="_blank">
                                 Call for Proposals
                             </a>
                         </li>
@@ -57,13 +57,9 @@ export default class Header extends React.Component {
                             </a>
                         </li>
                         <li>
-                            {/* <a
-                                href="https://ti.to/pythonpizza/hamburg-python-pizza"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
+                            <a href="https://ti.to/pysv/python-pizza-new-years-party-2020" target="_blank">
                                 Tickets
-                            </a> */}
+                            </a>
                         </li>
                     </ul>
                 </Container>

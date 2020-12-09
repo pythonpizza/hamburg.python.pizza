@@ -36,7 +36,41 @@ export default class App extends React.Component {
                         `}
                     </script>
                     <title>Python Pizza New Years Party</title>
-                    <meta name="description" content="Python Pizza New Years Party" />
+                    <meta name="description" content="Python Pizza New Year's Party" />
+                    <meta name="theme-color" content="#ed4337" />
+                    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1" />
+                    <meta name="msapplication-TileColor" content="#ed4337" />
+                    <link rel="icon" href="https://hamburg.python.pizza/favicon.ico" />
+                    <link
+                        rel="apple-touch-icon"
+                        sizes="180x180"
+                        href="https://hamburg.python.pizza/apple-touch-icon.png"
+                    />
+                    <link
+                        rel="icon"
+                        type="image/png"
+                        sizes="32x32"
+                        href="https://hamburg.python.pizza/favicon-32x32.png"
+                    />
+                    <link
+                        rel="icon"
+                        type="image/png"
+                        sizes="16x16"
+                        href="https://hamburg.python.pizza/favicon-16x16.png"
+                    />
+                    <link rel="manifest" href="/site.webmanifest" />
+                    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ed4337" />
+
+                    <meta name="twitter:card" value="summary_large_image" />
+                    <meta property="og:title" content="Python Pizza New Year's Party" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content="https://hamburg.python.pizza" />
+                    <meta property="og:image" content="https://hamburg.python.pizza/social-image.jpg" />
+                    <meta property="og:image:width" content="1640" />
+                    <meta property="og:image:height" content="624" />
+                    <meta property="og:description" content="Remote @ your couch 🛋️. Count down edition ⏰" />
                 </Helmet>
                 <Header />
                 <Home />

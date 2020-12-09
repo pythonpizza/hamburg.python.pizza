@@ -66,7 +66,7 @@ export default class App extends React.Component {
                     <meta name="twitter:card" content="summary_large_image" />
                     <meta name="twitter:site" content="@pythonpizza"></meta>
                     <meta name="twitter:title" content="Python Pizza New Year's Party!!"></meta>
-                    <meta name="twitter:image" content="https://hamburg.python.pizza/twitter_card_2_to_1.png"></meta>
+                    <meta name="twitter:image:src" content="https://hamburg.python.pizza/twitter_card_2_to_1.png"></meta>
                     <meta name="twitter:description" content=" Remote @ your couch 🛋️. Count down edition ⏰ Join the fun 🥳🎉 on 31 December 2020"></meta>
                     <meta property="og:title" content="Python Pizza New Year's Party" />
                     <meta property="og:type" content="website" />

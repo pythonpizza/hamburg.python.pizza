@@ -63,11 +63,11 @@ export default class App extends React.Component {
                     <link rel="manifest" href="/site.webmanifest" />
                     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ed4337" />
 
-                    <meta name="twitter:card" value="summary_large_image" />
+                    <meta name="twitter:card" content="summary_large_image" />
                     <meta property="og:title" content="Python Pizza New Year's Party" />
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://hamburg.python.pizza" />
-                    <meta property="og:image" content="https://hamburg.python.pizza/twitter_banner.jpeg" />
+                    <meta property="og:image" content="https://hamburg.python.pizza/twitter_card_2_to_1.png" />
                     <meta property="og:image:width" content="1640" />
                     <meta property="og:image:height" content="624" />
                     <meta property="og:description" content="Remote @ your couch 🛋️. Count down edition ⏰" />

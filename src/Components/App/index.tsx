@@ -63,15 +63,15 @@ export default class App extends React.Component {
                     <link rel="manifest" href="/site.webmanifest" />
                     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ed4337" />
 
-                    <meta name="twitter:card" content="summary_large_image">
-                    <meta name="twitter:site" content="@pythonpizzaconf">
-                    <meta name="twitter:creator" content="@pythonpizzaconf">
-                    <meta name="twitter:title" content="Python Pizza New Year's Party!!">
-                    <meta name="twitter:image" content="https://hamburg.python.pizza/twitter_card_2_to_1.png">
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:site" content="@pythonpizzaconf" />
+                    <meta name="twitter:creator" content="@pythonpizzaconf" />
+                    <meta name="twitter:title" content="Python Pizza New Year's Party!!" />
+                    <meta name="twitter:image" content="https://hamburg.python.pizza/twitter_card_2_to_1.png" />
                     <meta
                         name="twitter:description"
                         content=" Remote @ your couch 🛋️. Count down edition ⏰ Join the fun 🥳🎉 on 31 December 2020"
-                    >
+                    />
                     {/* <meta property="og:title" content="Python Pizza New Year's Party" />
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://hamburg.python.pizza" />

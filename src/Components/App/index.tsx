@@ -62,16 +62,22 @@ export default class App extends React.Component {
                     />
                     <link rel="manifest" href="/site.webmanifest" />
                     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ed4337" />
-                    <meta property="og:title" content="Python Pizza New Year's Party" />
+
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:site" content="@pythonpizza"></meta>
+                    <meta name="twitter:title" content="Python Pizza New Year's Party!!"></meta>
+                    <meta name="twitter:image" content="https://hamburg.python.pizza/twitter_card_2_to_1.png"></meta>
+                    <meta
+                        name="twitter:description"
+                        content=" Remote @ your couch 🛋️. Count down edition ⏰ Join the fun 🥳🎉 on 31 December 2020"
+                    ></meta>
+                    {/* <meta property="og:title" content="Python Pizza New Year's Party" />
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://hamburg.python.pizza" />
                     <meta property="og:image" content="https://hamburg.python.pizza/twitter_card_2_to_1.png" />
                     <meta property="og:image:width" content="1640" />
                     <meta property="og:image:height" content="624" />
-                    <meta
-                        property="og:description"
-                        content="Remote @ your couch 🛋️. Count down edition ⏰ Join the fun 🥳🎉 on 31 December 2020"
-                    />
+                    <meta property="og:description" content="Remote @ your couch 🛋️. Count down edition ⏰ Join the fun 🥳🎉 on 31 December 2020" /> */}
                 </Helmet>
                 <Header />
                 <Home />

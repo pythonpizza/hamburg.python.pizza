@@ -13,7 +13,7 @@ export default class Hero extends React.Component {
             <div className="hero">
                 <div className="hero--info">
                     <h1>
-                        Python Pizza <br></br>New Year's Party
+                        Python Pizza<br></br>New Year's Party
                     </h1>
                     <h2>Remote @ 🏠 🛋️. Count down edition ⏰</h2>
                     <br />

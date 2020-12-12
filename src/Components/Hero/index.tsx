@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { format } from 'date-fns';
 
 import Wave from '@/Components/Wave';
 
@@ -6,6 +7,8 @@ import './index.css';
 
 export default class Hero extends React.Component {
     render() {
+        var dateTime = new Date('12/31/2020 3:00:00 PM UTC');
+        const localDateTime = format(dateTime, 'd MMMM HH:mm');
         return (
             <div className="hero">
                 <div className="hero--info">
@@ -14,12 +17,7 @@ export default class Hero extends React.Component {
                     </h1>
                     <h2>Remote @ 🏠 🛋️. Count down edition ⏰</h2>
                     <br />
-                    <h2>
-                        Join the fun 🥳 🎉 on 31 Dec at ⏱
-                        <a target="_blank" rel="noopener noreferrer" href="https://everytimezone.com/s/b5320ec7">
-                            <i>15:00 UTC</i>
-                        </a>
-                    </h2>
+                    <h2>{localDateTime} (your time) ⏱</h2>
                 </div>
 
                 <Wave />

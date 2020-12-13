@@ -11,7 +11,11 @@ export default class About extends React.Component {
                     <p>
                         <b>Python Pizza</b> is a micro conference organized by the Python Hamburg Community. We are
                         several months in lockdown, but a virus won't keep us apart. We will use this opportunity to
-                        give back by donating all proceeds to a charity of your choice.
+                        give back by donating all proceeds to{' '}
+                        <a href="https://www.msf.org/" target="_blank" rel="noopener noreferrer">
+                            Doctors Without Borders
+                        </a>
+                        .
                     </p>
                     <br />
                     <p>

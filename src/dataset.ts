@@ -4,29 +4,8 @@ import Socials from '@/Types/Socials';
 import Organizer from '@/Types/Organizer';
 import Schedule, { Types } from '@/Types/Schedule';
 
-const KEY_1 = 0;
-const KEY_2 = 1;
-const SP_1 = 2;
-const SP_2 = 3;
-const SP_3 = 4;
-const SP_4 = 5;
-const SP_5 = 6;
-const SP_6 = 7;
-const SP_7 = 8;
-const SP_8 = 9;
-const SP_9 = 10;
-const SP_10 = 11;
-const SP_11 = 12;
-const SP_12 = 13;
-const SP_13 = 14;
-const SP_14 = 15;
-const SP_15 = 16;
-const SP_16 = 17;
-const SP_17 = 18;
-const SP_18 = 19;
-const SP_19 = 20;
-const SP_20 = 21;
-const SP_21 = 22;
+const SP_1 = 0;
+const SP_2 = 1;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -101,6 +80,18 @@ export const KEYSPEAKERS: Speaker[] = [
         },*/
 ];
 export const SPEAKERS: Speaker[] = [
+    {
+        name: 'Jason C. McDonald',
+        photo: require('Assets/speakers/jason.png'),
+        social: 'https://twitter.com/codemouse92',
+        title: 'Whose Method Is It Anyway?',
+    },
+    {
+        name: 'Miroslav Šedivý',
+        photo: require('Assets/speakers/miroslav.jpg'),
+        social: 'https://twitter.com/eumiro',
+        title: 'The Final Countdown ⌛',
+    },
     /*{
         name: 'Christian Barra',
         photo: require('Assets/speakers/christianB.jpeg'),
@@ -314,6 +305,18 @@ export const SPONSORS: Sponsor[][] = [
 ];
 
 export const SCHEDULE: Schedule[] = [
+    {
+        order: 0,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_1,
+    },
+    {
+        order: 1,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_2,
+    },
     /*{
         order: 0,
         time: '10:00',

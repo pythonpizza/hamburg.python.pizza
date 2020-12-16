@@ -10,10 +10,17 @@ export default class Schedule extends React.Component {
             <section id="schedule" className="schedule">
                 <Container size={Sizes.large}>
                     <Container size={Sizes.small}>
-                        <h1>Schedule</h1>
+                        <h1>Speakers</h1>
                     </Container>
+                    <Container size={Sizes.medium}>
+                        <p>
+                            This section will be updated as we review CFPs on a rolling basis. The schedule will be
+                            determined in the coming days.
+                        </p>
+                    </Container>
+
                     <ul>
-                        {SCHEDULE.map(schedule => (
+                        {SCHEDULE.map((schedule) => (
                             <ScheduleItem
                                 key={schedule.order}
                                 schedule={schedule}

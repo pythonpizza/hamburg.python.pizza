@@ -20,6 +20,7 @@ export default class Home extends React.Component {
                 <About />
                 <Organizers />
                 <CFP />
+                <Schedule />
                 <Sponsors />
                 <Coc />
             </div>

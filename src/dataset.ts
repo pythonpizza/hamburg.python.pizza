@@ -6,6 +6,8 @@ import Schedule, { Types } from '@/Types/Schedule';
 
 const SP_1 = 0;
 const SP_2 = 1;
+const SP_3 = 2;
+const SP_4 = 3;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -91,6 +93,18 @@ export const SPEAKERS: Speaker[] = [
         photo: require('Assets/speakers/miroslav.jpg'),
         social: 'https://twitter.com/eumiro',
         title: 'The Final Countdown ⌛',
+    },
+    {
+        name: 'Lauris Jullien',
+        photo: require('Assets/speakers/lauris.jpg'),
+        social: 'https://twitter.com/laucia_julljen',
+        title: 'Always roll 20 in Leadership',
+    },
+    {
+        name: 'Anastasiia Tymoshchuk',
+        photo: require('Assets/speakers/anastasiia.jpg'),
+        social: 'https://twitter.com/anastasiatymo',
+        title: 'New Years Chronicles for your code',
     },
     /*{
         name: 'Christian Barra',
@@ -317,6 +331,19 @@ export const SCHEDULE: Schedule[] = [
         type: Types.TALK,
         speaker: SP_2,
     },
+    {
+        order: 2,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_3,
+    },
+    {
+        order: 3,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_4,
+    },
+    
     /*{
         order: 0,
         time: '10:00',

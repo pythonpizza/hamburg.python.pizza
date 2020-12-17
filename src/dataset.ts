@@ -85,12 +85,6 @@ export const KEYSPEAKERS: Speaker[] = [
 ];
 export const SPEAKERS: Speaker[] = [
     {
-        name: 'Jason C. McDonald',
-        photo: require('Assets/speakers/jason.png'),
-        social: 'https://twitter.com/codemouse92',
-        title: 'Whose Method Is It Anyway?',
-    },
-    {
         name: 'Miroslav Šedivý',
         photo: require('Assets/speakers/miroslav.jpg'),
         social: 'https://twitter.com/eumiro',
@@ -118,6 +112,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('Assets/speakers/ellenK.png'),
         social: 'https://twitter.com/ellen_koenig',
         title: 'How to influence software engineers',
+    },
+    {
+        name: 'Jason C. McDonald',
+        photo: require('Assets/speakers/jason.png'),
+        social: 'https://twitter.com/codemouse92',
+        title: 'Whose Method Is It Anyway?',
     },
     /*{
         name: 'Christian Barra',
@@ -361,7 +361,13 @@ export const SCHEDULE: Schedule[] = [
         time: '',
         type: Types.TALK,
         speaker: SP_5,
-    },   
+    },  
+    {
+        order: 5,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_6,
+    },  
     /*{
         order: 0,
         time: '10:00',

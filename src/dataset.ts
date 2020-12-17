@@ -9,6 +9,7 @@ const SP_2 = 1;
 const SP_3 = 2;
 const SP_4 = 3;
 const SP_5 = 4;
+const SP_6 = 5;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -111,6 +112,12 @@ export const SPEAKERS: Speaker[] = [
         name: 'Alessandro Romano',
         photo: require('Assets/speakers/alessandro.jpg'),
         title: 'How I made my girlfriend happy with a Telegram Bot',
+    },
+    {
+        name: 'Ellen König',
+        photo: require('Assets/speakers/ellenK.png'),
+        social: 'https://twitter.com/ellen_koenig',
+        title: 'How to influence software engineers',
     },
     /*{
         name: 'Christian Barra',

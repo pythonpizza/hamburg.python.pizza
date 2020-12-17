@@ -8,6 +8,7 @@ const SP_1 = 0;
 const SP_2 = 1;
 const SP_3 = 2;
 const SP_4 = 3;
+const SP_5 = 4;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -105,6 +106,11 @@ export const SPEAKERS: Speaker[] = [
         photo: require('Assets/speakers/anastasiia.jpg'),
         social: 'https://twitter.com/anastasiatymo',
         title: 'New Years Chronicles for your code',
+    },
+    {
+        name: 'Alessandro Romano',
+        photo: require('Assets/speakers/alessandro.jpg'),
+        title: 'How I made my girlfriend happy with a Telegram Bot',
     },
     /*{
         name: 'Christian Barra',
@@ -342,6 +348,12 @@ export const SCHEDULE: Schedule[] = [
         time: '',
         type: Types.TALK,
         speaker: SP_4,
+    },
+    {
+        order: 4,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_5,
     },
     
     /*{

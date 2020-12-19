@@ -287,48 +287,13 @@ export const SPONSORS: Sponsor[][] = [
             photo: require('Assets/sponsors/PySVlogo.png'),
             link: 'https://python-verband.org',
         },
-        /*
         {
-            id: 'PSF',
-            name: 'Python Software Foundation',
-            photo: require('Assets/sponsors/psf-logo-narrow-256x84-alpha.png'),
-            link: 'https://www.python.org',
+            id: 'Rasa',
+            name: 'Rasa Technologies GmbH',
+            photo: require('Assets/sponsors/RasaLogo.svg'),
+            link: 'https://rasa.com/',
         },
-        {
-            id: 'EuroPython',
-            name: 'EuroPython Society',
-            photo: require('Assets/sponsors/eps-text.png'),
-            link: 'https://www.europython-society.org/',
-        },
-        */
     ],
-    /* 
-           {
-            id: 'pizza',
-            name: 'IlLocale',
-            photo: require('Assets/sponsors/il_locale_logo.png'),
-            link: 'http://www.il-locale.de',
-        },
-    [
-         {
-             id: 'pythonitalia',
-             name: 'TBA',
-             photo: 'https://via.placeholder.com/150',
-             link: 'https://pycon.it/',
-         },
-         {
-             id: 'psf',
-             name: 'TBA',
-             photo: 'https://via.placeholder.com/150',
-             link: 'https://www.012factory.it/',
-         },
-         {
-             id: 'f012actory',
-             name: 'TBA',
-             photo: 'https://via.placeholder.com/150',
-             link: 'https://www.012factory.it/',
-         },
-     ],*/
 ];
 
 export const SCHEDULE: Schedule[] = [
@@ -434,102 +399,7 @@ export const SCHEDULE: Schedule[] = [
         type: Types.TALK,
         speaker: SP_7,
     },
-    {
-        order: 11,
-        time: '12:36',
-        type: Types.TALK,
-        speaker: SP_8,
-    },
-    {
-        order: 12,
-        time: '12:48',
-        type: Types.TALK,
-        speaker: SP_9,
-    },
-    {
-        order: 12,
-        time: '13:00',
-        title: 'Pizza!',
-        type: Types.LUNCH,
-    },
-    {
-        order: 13,
-        time: '14:45',
-        type: Types.TALK,
-        speaker: KEY_2,
-    },
-    {
-        order: 12,
-        time: '15:15',
-        type: Types.TALK,
-        speaker: SP_21,
-    },
-    {
-        order: 13,
-        time: '15:27',
-        type: Types.TALK,
-        speaker: SP_11,
-    },
-    {
-        order: 14,
-        time: '15:39',
-        type: Types.TALK,
-        speaker: SP_12,
-    },
-    {
-        order: 15,
-        time: '15:51',
-        type: Types.TALK,
-        speaker: SP_13,
-    },
-    {
-        order: 16,
-        time: '16:03',
-        type: Types.TALK,
-        speaker: SP_14,
-    },
-    {
-        order: 10,
-        time: '16:15',
-        title: 'Break',
-        type: Types.BREAK,
-    },
-    {
-        order: 17,
-        time: '16:45',
-        type: Types.TALK,
-        speaker: SP_20,
-    },
-    {
-        order: 18,
-        time: '16:57',
-        type: Types.TALK,
-        speaker: SP_16,
-    },
-    {
-        order: 19,
-        time: '17:09',
-        type: Types.TALK,
-        speaker: SP_17,
-    },
-    {
-        order: 20,
-        time: '17:21',
-        type: Types.TALK,
-        speaker: SP_15,
-    },
-    {
-        order: 21,
-        time: '17:33',
-        type: Types.TALK,
-        speaker: SP_19,
-    },
-    {
-        order: 22,
-        time: '17:45',
-        title: 'Outro & Drinks',
-        type: Types.OTHER,
-    },
+ 
     {
          order: 7,
          time: '14:00',
@@ -555,20 +425,6 @@ export const SCHEDULE: Schedule[] = [
          time: '16:30',
          title: 'Break',
          type: Types.BREAK,
-     },
-     {
-         order: 11,
-         time: '16:45',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: SALVATORE_BUSIELLO,
-     },
-     {
-         order: 12,
-         time: '17:30',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: ANDREA_STAGI,
      },
      {
          order: 13,

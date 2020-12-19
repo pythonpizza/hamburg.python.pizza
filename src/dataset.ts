@@ -96,7 +96,7 @@ export const SPEAKERS: Speaker[] = [
         name: 'Lauris Jullien',
         photo: require('Assets/speakers/2020_lauris.jpg'),
         social: 'https://twitter.com/laucia_julljen',
-        title: 'Always roll 20 in Leadership',
+        title: 'Always roll 20 in Leadership 🎲',
     },
     {
         name: 'Anastasiia Tymoshchuk',

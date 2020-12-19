@@ -131,6 +131,7 @@ export const SPEAKERS: Speaker[] = [
     {
         name: 'Geir Arne Hjelle',
         photo: require('Assets/speakers/2020_geirarne13.jpg'),
+        social: 'https://twitter.com/gahjelle',
         title: '🗺 Maps, Maps, Maps! 🗺',
     },
     {

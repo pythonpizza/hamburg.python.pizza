@@ -11,6 +11,7 @@ const SP_4 = 3;
 const SP_5 = 4;
 const SP_6 = 5;
 const SP_7 = 6;
+const SP_8 = 7;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -119,6 +120,11 @@ export const SPEAKERS: Speaker[] = [
         photo: require('Assets/speakers/2020_martin_sq.jpg'),
         social: 'https://twitter.com/MartinChristen',
         title: '💥PyRT 2021 - Computer Graphics with Python💥',
+    },
+    {
+        name: 'Jing Xie',
+        photo: require('Assets/speakers/2020_jing.jpg'),
+        title: 'Storytelling for data scientists: 4 things to skyrocket your presentation skills',
     },
     {
         name: 'Jason C. McDonald',
@@ -345,6 +351,12 @@ export const SCHEDULE: Schedule[] = [
         time: '',
         type: Types.TALK,
         speaker: SP_7,
+    },  
+    {
+        order: 7,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_8,
     },  
     /*{
         order: 0,

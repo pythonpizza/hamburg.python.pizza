@@ -10,6 +10,7 @@ const SP_3 = 2;
 const SP_4 = 3;
 const SP_5 = 4;
 const SP_6 = 5;
+const SP_7 = 6;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -92,30 +93,36 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Lauris Jullien',
-        photo: require('Assets/speakers/lauris.jpg'),
+        photo: require('Assets/speakers/2020_lauris.jpg'),
         social: 'https://twitter.com/laucia_julljen',
         title: 'Always roll 20 in Leadership',
     },
     {
         name: 'Anastasiia Tymoshchuk',
-        photo: require('Assets/speakers/anastasiia.jpg'),
+        photo: require('Assets/speakers/2020_anastasiia.jpg'),
         social: 'https://twitter.com/anastasiatymo',
         title: 'New Years Chronicles for your code',
     },
     {
         name: 'Alessandro Romano',
-        photo: require('Assets/speakers/alessandro.jpg'),
+        photo: require('Assets/speakers/2020_alessandro.jpg'),
         title: 'How I made my girlfriend happy with a Telegram Bot',
     },
     {
         name: 'Ellen König',
-        photo: require('Assets/speakers/ellenK.png'),
+        photo: require('Assets/speakers/2020_ellenK.png'),
         social: 'https://twitter.com/ellen_koenig',
         title: 'How to influence software engineers',
     },
     {
+        name: 'Martin Christen',
+        photo: require('Assets/speakers/2020_martin_sq.jpg'),
+        social: 'https://twitter.com/MartinChristen',
+        title: '💥PyRT 2021 - Computer Graphics with Python💥',
+    },
+    {
         name: 'Jason C. McDonald',
-        photo: require('Assets/speakers/jason.png'),
+        photo: require('Assets/speakers/2020_jason.png'),
         social: 'https://twitter.com/codemouse92',
         title: 'Whose Method Is It Anyway?',
     },
@@ -332,6 +339,12 @@ export const SCHEDULE: Schedule[] = [
         time: '',
         type: Types.TALK,
         speaker: SP_6,
+    }, 
+    {
+        order: 6,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_7,
     },  
     /*{
         order: 0,

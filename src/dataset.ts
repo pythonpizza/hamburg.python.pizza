@@ -13,6 +13,7 @@ const SP_6 = 5;
 const SP_7 = 6;
 const SP_8 = 7;
 const SP_9 = 8;
+const SP_10 = 9;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -126,6 +127,11 @@ export const SPEAKERS: Speaker[] = [
         name: 'Jing Xie',
         photo: require('Assets/speakers/2020_jing.jpg'),
         title: 'Storytelling for data scientists: 4 things to skyrocket your presentation skills',
+    },
+    {
+        name: 'Geir Arne Hjelle',
+        photo: require('Assets/speakers/2020_geirarne13.jpg'),
+        title: '🗺 Maps, Maps, Maps! 🗺',
     },
     {
         name: 'Mary Bajorek',
@@ -370,6 +376,12 @@ export const SCHEDULE: Schedule[] = [
         time: '',
         type: Types.TALK,
         speaker: SP_9,
+    }, 
+    {
+        order: 9,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_10,
     }, 
     /*{
         order: 0,

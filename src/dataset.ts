@@ -11,6 +11,8 @@ const SP_4 = 3;
 const SP_5 = 4;
 const SP_6 = 5;
 const SP_7 = 6;
+const SP_8 = 7;
+const SP_9 = 8;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -95,7 +97,7 @@ export const SPEAKERS: Speaker[] = [
         name: 'Lauris Jullien',
         photo: require('Assets/speakers/2020_lauris.jpg'),
         social: 'https://twitter.com/laucia_julljen',
-        title: 'Always roll 20 in Leadership',
+        title: 'Always roll 20 in Leadership 🎲',
     },
     {
         name: 'Anastasiia Tymoshchuk',
@@ -119,6 +121,17 @@ export const SPEAKERS: Speaker[] = [
         photo: require('Assets/speakers/2020_martin_sq.jpg'),
         social: 'https://twitter.com/MartinChristen',
         title: '💥PyRT 2021 - Computer Graphics with Python💥',
+    },
+    {
+        name: 'Jing Xie',
+        photo: require('Assets/speakers/2020_jing.jpg'),
+        title: 'Storytelling for data scientists: 4 things to skyrocket your presentation skills',
+    },
+    {
+        name: 'Mary Bajorek',
+        photo: require('Assets/speakers/2020_mary.jpg'),
+        social: 'https://www.lifeworthlovingcoaching.com/',
+        title: '5 Lessons of 2020 told in fun facts',
     },
     {
         name: 'Jason C. McDonald',
@@ -346,6 +359,18 @@ export const SCHEDULE: Schedule[] = [
         type: Types.TALK,
         speaker: SP_7,
     },  
+    {
+        order: 7,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_8,
+    },  
+    {
+        order: 8,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_9,
+    }, 
     /*{
         order: 0,
         time: '10:00',

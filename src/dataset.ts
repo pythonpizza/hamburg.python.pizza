@@ -14,6 +14,8 @@ const SP_7 = 6;
 const SP_8 = 7;
 const SP_9 = 8;
 const SP_10 = 9;
+const SP_11 = 10;
+const SP_12 = 11;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -139,6 +141,17 @@ export const SPEAKERS: Speaker[] = [
         photo: require('Assets/speakers/2020_mary.jpg'),
         social: 'https://www.lifeworthlovingcoaching.com/',
         title: '5 Lessons of 2020 told in fun facts',
+    },
+    {
+        name: 'Cheuk Ting Ho',
+        photo: require('Assets/speakers/2020_cheuk.png'),
+        social: 'https://twitter.com/cheukting_ho',
+        title: 'How to Lose 10kg During Lockdown',
+    },
+    {
+        name: 'Klaus Bremer',
+        photo: require('Assets/speakers/2020_klaus.jpg'),
+        title: 'Solitair to the rescues 🃏',
     },
     {
         name: 'Jason C. McDonald',
@@ -384,6 +397,18 @@ export const SCHEDULE: Schedule[] = [
         type: Types.TALK,
         speaker: SP_10,
     }, 
+    {
+        order: 10,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_11,
+    }, 
+    {
+        order: 11,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_12,
+    },
     /*{
         order: 0,
         time: '10:00',

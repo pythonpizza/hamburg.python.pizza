@@ -16,6 +16,9 @@ const SP_9 = 8;
 const SP_10 = 9;
 const SP_11 = 10;
 const SP_12 = 11;
+const SP_13 = 12;
+const SP_14 = 13;
+const SP_15 = 14;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -89,24 +92,30 @@ export const KEYSPEAKERS: Speaker[] = [
             social: 'https://www.linkedin.com/in/elena-nieddu-b06896154/',
         },*/
 ];
-export const SPEAKERS: Speaker[] = [
+export const SPEAKERS: Speaker[] = [ 
     {
         name: 'Miroslav Šedivý',
-        photo: require('Assets/speakers/miroslav.jpg'),
+        photo: require('Assets/speakers/2020_miroslav.jpg'),
         social: 'https://twitter.com/eumiro',
         title: 'The Final Countdown ⌛',
     },
     {
-        name: 'Lauris Jullien',
-        photo: require('Assets/speakers/2020_lauris.jpg'),
-        social: 'https://twitter.com/laucia_julljen',
-        title: 'Always roll 20 in Leadership 🎲',
+        name: 'Prashant Sahu',
+        photo: require('Assets/speakers/2020_prashant.jpg'),
+        social: 'https://twitter.com/Prashan92922042',
+        title: 'Beginner at Python 🐍',
     },
     {
         name: 'Anastasiia Tymoshchuk',
         photo: require('Assets/speakers/2020_anastasiia.jpg'),
         social: 'https://twitter.com/anastasiatymo',
         title: 'New Years Chronicles for your code',
+    },
+    {
+        name: 'Lauris Jullien',
+        photo: require('Assets/speakers/2020_lauris.jpg'),
+        social: 'https://twitter.com/laucia_julljen',
+        title: 'Always roll 20 in Leadership 🎲',
     },
     {
         name: 'Alessandro Romano',
@@ -131,16 +140,16 @@ export const SPEAKERS: Speaker[] = [
         title: 'Storytelling for data scientists: 4 things to skyrocket your presentation skills',
     },
     {
+        name: 'Hannah Hazi',
+        photo: require('Assets/speakers/2020_hannah.jpg'),
+        social: 'https://raspberrycheesecake.github.io',
+        title: 'Fruitmoji: 🤰 tracking my pregnancy with Python and emoji',
+    },
+    {
         name: 'Geir Arne Hjelle',
         photo: require('Assets/speakers/2020_geirarne13.jpg'),
         social: 'https://twitter.com/gahjelle',
         title: '🗺 Maps, Maps, Maps! 🗺',
-    },
-    {
-        name: 'Mary Bajorek',
-        photo: require('Assets/speakers/2020_mary.jpg'),
-        social: 'https://www.lifeworthlovingcoaching.com/',
-        title: '5 Lessons of 2020 told in fun facts',
     },
     {
         name: 'Cheuk Ting Ho',
@@ -152,6 +161,18 @@ export const SPEAKERS: Speaker[] = [
         name: 'Klaus Bremer',
         photo: require('Assets/speakers/2020_klaus.jpg'),
         title: 'Solitair to the rescues 🃏',
+    },
+    {
+        name: 'Lais Carvalho',
+        photo: require('Assets/speakers/2020_lais.jpg'),
+        social: 'https://twitter.com/lais_bsc',
+        title: 'Markov chain fake news generator ',
+    },
+    {
+        name: 'Mary Bajorek',
+        photo: require('Assets/speakers/2020_mary.jpg'),
+        social: 'https://www.lifeworthlovingcoaching.com/',
+        title: '5 Lessons of 2020 told in fun facts',
     },
     {
         name: 'Jason C. McDonald',
@@ -408,6 +429,24 @@ export const SCHEDULE: Schedule[] = [
         time: '',
         type: Types.TALK,
         speaker: SP_12,
+    },
+    {
+        order: 12,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_13,
+    }, 
+    {
+        order: 13,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_14,
+    },
+    {
+        order: 14,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_15,
     },
     /*{
         order: 0,

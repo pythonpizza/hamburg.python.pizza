@@ -154,7 +154,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Sebastian Witowski',
-        photo: require('Assets/speakers/2020_sebastian.jpg'),
+        photo: require('Assets/speakers/2020_sebastian.jpeg'),
         social: 'https://twitter.com/SebaWitowski',
         title: '🎥 Lessons learned from recording my first programming videos',
     },

@@ -136,7 +136,7 @@ export const SPEAKERS: Speaker[] = [
         title: '💥PyRT 2021 - Computer Graphics with Python💥',
     },
     {
-        name: 'Jing Xie',
+        name: 'Dr. Jing Xie',
         photo: require('Assets/speakers/2020_jing.jpg'),
         title: 'Storytelling for data scientists: 4 things to skyrocket your presentation skills',
     },

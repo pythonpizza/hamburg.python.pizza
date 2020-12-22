@@ -19,6 +19,7 @@ const SP_12 = 11;
 const SP_13 = 12;
 const SP_14 = 13;
 const SP_15 = 14;
+const SP_16 = 15;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -152,6 +153,12 @@ export const SPEAKERS: Speaker[] = [
         title: '🗺 Maps, Maps, Maps! 🗺',
     },
     {
+        name: 'Sebastian Witowski',
+        photo: require('Assets/speakers/2020_sebastian.jpeg'),
+        social: 'https://twitter.com/SebaWitowski',
+        title: '🎥 Lessons learned from recording my first programming videos',
+    },
+    {
         name: 'Cheuk Ting Ho',
         photo: require('Assets/speakers/2020_cheuk.png'),
         social: 'https://twitter.com/cheukting_ho',
@@ -160,7 +167,7 @@ export const SPEAKERS: Speaker[] = [
     {
         name: 'Klaus Bremer',
         photo: require('Assets/speakers/2020_klaus.jpg'),
-        title: 'Solitair to the rescues 🃏',
+        title: 'Solitaire to the rescues 🃏',
     },
     {
         name: 'Lais Carvalho',
@@ -447,6 +454,12 @@ export const SCHEDULE: Schedule[] = [
         time: '',
         type: Types.TALK,
         speaker: SP_15,
+    },
+    {
+        order: 15,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_16,
     },
     /*{
         order: 0,

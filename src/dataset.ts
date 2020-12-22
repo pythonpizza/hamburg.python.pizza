@@ -20,6 +20,7 @@ const SP_13 = 12;
 const SP_14 = 13;
 const SP_15 = 14;
 const SP_16 = 15;
+const SP_17 = 16;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -101,10 +102,10 @@ export const SPEAKERS: Speaker[] = [
         title: 'The Final Countdown ⌛',
     },
     {
-        name: 'Prashant Sahu',
-        photo: require('Assets/speakers/2020_prashant.jpg'),
-        social: 'https://twitter.com/Prashan92922042',
-        title: 'Beginner at Python 🐍',
+        name: 'Eva Schreyer',
+        photo: require('Assets/speakers/2020_eva.jpg'),
+        social: 'https://twitter.com/EvaSchreyer',
+        title: 'Why python? solving your first python riddle',
     },
     {
         name: 'Anastasiia Tymoshchuk',
@@ -128,6 +129,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('Assets/speakers/2020_ellenK.png'),
         social: 'https://twitter.com/ellen_koenig',
         title: 'How to influence software engineers',
+    },
+    {
+        name: 'Prashant Sahu',
+        photo: require('Assets/speakers/2020_prashant.jpg'),
+        social: 'https://twitter.com/Prashan92922042',
+        title: 'Beginner at Python 🐍',
     },
     {
         name: 'Martin Christen',
@@ -460,6 +467,12 @@ export const SCHEDULE: Schedule[] = [
         time: '',
         type: Types.TALK,
         speaker: SP_16,
+    },
+    {
+        order: 16,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_17,
     },
     /*{
         order: 0,

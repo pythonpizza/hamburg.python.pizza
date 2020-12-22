@@ -160,7 +160,7 @@ export const SPEAKERS: Speaker[] = [
     {
         name: 'Klaus Bremer',
         photo: require('Assets/speakers/2020_klaus.jpg'),
-        title: 'Solitair to the rescues 🃏',
+        title: 'Solitaire to the rescues 🃏',
     },
     {
         name: 'Lais Carvalho',

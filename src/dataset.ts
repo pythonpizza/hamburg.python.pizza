@@ -21,6 +21,7 @@ const SP_14 = 13;
 const SP_15 = 14;
 const SP_16 = 15;
 const SP_17 = 16;
+const SP_18 = 17;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -105,13 +106,13 @@ export const SPEAKERS: Speaker[] = [
         name: 'Eva Schreyer',
         photo: require('Assets/speakers/2020_eva.jpg'),
         social: 'https://twitter.com/EvaSchreyer',
-        title: 'Why python? solving your first python riddle',
+        title: 'Why python 🐍? solving your first python riddle',
     },
     {
         name: 'Anastasiia Tymoshchuk',
         photo: require('Assets/speakers/2020_anastasiia.jpg'),
         social: 'https://twitter.com/anastasiatymo',
-        title: 'New Years Chronicles for your code',
+        title: 'New Years Chronicles 🥳 for your code',
     },
     {
         name: 'Lauris Jullien',
@@ -120,15 +121,15 @@ export const SPEAKERS: Speaker[] = [
         title: 'Always roll 20 in Leadership 🎲',
     },
     {
-        name: 'Alessandro Romano',
-        photo: require('Assets/speakers/2020_alessandro.jpg'),
-        title: 'How I made my girlfriend happy with a Telegram Bot',
-    },
-    {
         name: 'Ellen König',
         photo: require('Assets/speakers/2020_ellenK.png'),
         social: 'https://twitter.com/ellen_koenig',
-        title: 'How to influence software engineers',
+        title: 'How to influence software engineers 👩🏽‍💻',
+    },
+    {
+        name: 'Alessandro Romano',
+        photo: require('Assets/speakers/2020_alessandro.jpg'),
+        title: 'How I made my girlfriend happy with a Telegram Bot 🤖',
     },
     {
         name: 'Prashant Sahu',
@@ -140,12 +141,18 @@ export const SPEAKERS: Speaker[] = [
         name: 'Martin Christen',
         photo: require('Assets/speakers/2020_martin_sq.jpg'),
         social: 'https://twitter.com/MartinChristen',
-        title: '💥PyRT 2021 - Computer Graphics with Python💥',
+        title: '💥PyRT 2021 - Computer Graphics with Python',
     },
     {
         name: 'Dr. Jing Xie',
         photo: require('Assets/speakers/2020_jing.jpg'),
-        title: 'Storytelling for data scientists: 4 things to skyrocket your presentation skills',
+        title: 'Storytelling for data scientists: 4 things to skyrocket 🚀 your presentation skills',
+    },
+    {
+        name: 'Niklas Meinzer',
+        photo: require('Assets/speakers/2020_NiklasMM.jpg'),
+        social: 'https://twitter.com/NiklasMM',
+        title: 'Some points about nothing 📭',
     },
     {
         name: 'Hannah Hazi',
@@ -169,7 +176,7 @@ export const SPEAKERS: Speaker[] = [
         name: 'Cheuk Ting Ho',
         photo: require('Assets/speakers/2020_cheuk.png'),
         social: 'https://twitter.com/cheukting_ho',
-        title: 'How to Lose 10kg During Lockdown',
+        title: 'How to Lose ⚖️ 10kg During Lockdown',
     },
     {
         name: 'Klaus Bremer',
@@ -180,19 +187,19 @@ export const SPEAKERS: Speaker[] = [
         name: 'Lais Carvalho',
         photo: require('Assets/speakers/2020_lais.jpg'),
         social: 'https://twitter.com/lais_bsc',
-        title: 'Markov chain fake news generator ',
+        title: 'Markov chain fake news generator 🥸',
     },
     {
         name: 'Mary Bajorek',
         photo: require('Assets/speakers/2020_mary.jpg'),
         social: 'https://www.lifeworthlovingcoaching.com/',
-        title: '5 Lessons of 2020 told in fun facts',
+        title: '5 Lessons ⭐️ of 2020 told in fun facts',
     },
     {
         name: 'Jason C. McDonald',
         photo: require('Assets/speakers/2020_jason.png'),
         social: 'https://twitter.com/codemouse92',
-        title: 'Whose Method Is It Anyway?',
+        title: 'Whose Method Is It Anyway 🪆 ?',
     },
     /*{
         name: 'Christian Barra',
@@ -473,6 +480,12 @@ export const SCHEDULE: Schedule[] = [
         time: '',
         type: Types.TALK,
         speaker: SP_17,
+    },
+    {
+        order: 17,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_18,
     },
     /*{
         order: 0,

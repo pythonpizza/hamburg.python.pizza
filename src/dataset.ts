@@ -145,7 +145,7 @@ export const SPEAKERS: Speaker[] = [
         name: 'Tereza Iofciu',
         photo: require('Assets/speakers/2020_tereza.png'),
         social: 'https://twitter.com/terezaif',
-        title: 'The Advent of Code - how close am I to the Leaderboard?',
+        title: 'The Advent of Code 🎄 - how close am I to the Leaderboard?',
     },
      /** 6 pm */
     {
@@ -212,7 +212,7 @@ export const SPEAKERS: Speaker[] = [
         name: 'Rachel Wang',
         photo: require('Assets/speakers/2020_rachel.png'),
         social: 'https://twitter.com/rwangca',
-        title: 'Cat Gifs & the 10 Python Packages of 2020',
+        title: '🐈 Cat Gifs 🐈‍⬛ & the 10 Python Packages of 2020',
     },
     {
         name: 'Jason C. McDonald',

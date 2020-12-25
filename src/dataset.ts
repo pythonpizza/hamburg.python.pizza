@@ -22,6 +22,8 @@ const SP_15 = 14;
 const SP_16 = 15;
 const SP_17 = 16;
 const SP_18 = 17;
+const SP_19 = 18;
+const SP_20 = 19;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -96,6 +98,7 @@ export const KEYSPEAKERS: Speaker[] = [
         },*/
 ];
 export const SPEAKERS: Speaker[] = [ 
+    /** 4 pm */
     {
         name: 'Miroslav Šedivý',
         photo: require('Assets/speakers/2020_miroslav.jpg'),
@@ -120,6 +123,7 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/laucia_julljen',
         title: 'Always roll 20 in Leadership 🎲',
     },
+     /** 5 pm */
     {
         name: 'Ellen König',
         photo: require('Assets/speakers/2020_ellenK.png'),
@@ -127,9 +131,9 @@ export const SPEAKERS: Speaker[] = [
         title: 'How to influence software engineers 👩🏽‍💻',
     },
     {
-        name: 'Alessandro Romano',
-        photo: require('Assets/speakers/2020_alessandro.jpg'),
-        title: 'How I made my girlfriend happy with a Telegram Bot 🤖',
+        name: 'Klaus Bremer',
+        photo: require('Assets/speakers/2020_klaus.jpg'),
+        title: 'Solitaire to the rescues 🃏',
     },
     {
         name: 'Prashant Sahu',
@@ -137,6 +141,13 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/Prashan92922042',
         title: 'Beginner at Python 🐍',
     },
+    {
+        name: 'Tereza Iofciu',
+        photo: require('Assets/speakers/2020_tereza.png'),
+        social: 'https://twitter.com/terezaif',
+        title: 'The Advent of Code 🎄 - how close am I to the Leaderboard?',
+    },
+     /** 6 pm */
     {
         name: 'Martin Christen',
         photo: require('Assets/speakers/2020_martin_sq.jpg'),
@@ -160,6 +171,7 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://raspberrycheesecake.github.io',
         title: 'Fruitmoji: 🤰 tracking my pregnancy with Python and emoji',
     },
+     /** 7 pm */
     {
         name: 'Geir Arne Hjelle',
         photo: require('Assets/speakers/2020_geirarne13.jpg'),
@@ -179,10 +191,11 @@ export const SPEAKERS: Speaker[] = [
         title: 'How to Lose ⚖️ 10kg During Lockdown',
     },
     {
-        name: 'Klaus Bremer',
-        photo: require('Assets/speakers/2020_klaus.jpg'),
-        title: 'Solitaire to the rescues 🃏',
+        name: 'Alessandro Romano',
+        photo: require('Assets/speakers/2020_alessandro.jpg'),
+        title: 'How I made my girlfriend happy with a Telegram Bot 🤖',
     },
+     /** 8 pm */
     {
         name: 'Lais Carvalho',
         photo: require('Assets/speakers/2020_lais.jpg'),
@@ -194,6 +207,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('Assets/speakers/2020_mary.jpg'),
         social: 'https://www.lifeworthlovingcoaching.com/',
         title: '5 Lessons ⭐️ of 2020 told in fun facts',
+    },
+    {
+        name: 'Rachel Wang',
+        photo: require('Assets/speakers/2020_rachel.png'),
+        social: 'https://twitter.com/rwangca',
+        title: '🐈 Cat Gifs 🐈‍⬛ & the 10 Python Packages of 2020',
     },
     {
         name: 'Jason C. McDonald',
@@ -486,6 +505,18 @@ export const SCHEDULE: Schedule[] = [
         time: '',
         type: Types.TALK,
         speaker: SP_18,
+    },
+    {
+        order: 18,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_19,
+    },
+    {
+        order: 19,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_20,
     },
     /*{
         order: 0,

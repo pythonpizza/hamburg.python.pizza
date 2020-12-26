@@ -102,10 +102,9 @@ export const KEYSPEAKERS: Speaker[] = [
 export const SPEAKERS: Speaker[] = [ 
     /** 4 pm */
     {
-        name: 'Miroslav Šedivý',
-        photo: require('Assets/speakers/2020_miroslav.jpg'),
-        social: 'https://twitter.com/eumiro',
-        title: 'The Final Countdown ⌛',
+        name: 'Klaus Bremer',
+        photo: require('Assets/speakers/2020_klaus.jpg'),
+        title: 'Solitaire to the rescues 🃏',
     },
     {
         name: 'Eva Schreyer',
@@ -133,10 +132,12 @@ export const SPEAKERS: Speaker[] = [
         title: 'How to influence software engineers 👩🏽‍💻',
     },
     {
-        name: 'Klaus Bremer',
-        photo: require('Assets/speakers/2020_klaus.jpg'),
-        title: 'Solitaire to the rescues 🃏',
+        name: 'Miroslav Šedivý',
+        photo: require('Assets/speakers/2020_miroslav.jpg'),
+        social: 'https://twitter.com/eumiro',
+        title: 'The Final Countdown ⌛',
     },
+    
     {
         name: 'Prashant Sahu',
         photo: require('Assets/speakers/2020_prashant.jpg'),

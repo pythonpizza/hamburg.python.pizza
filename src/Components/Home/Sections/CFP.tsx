@@ -7,7 +7,7 @@ export default class CFP extends React.Component {
         return (
             <section id="cfp">
                 <Container size={Sizes.medium}>
-                    <h1>Call For Proposal by <s>20 Dec</s> 25 Dec</h1>
+                    <h1>Call For Proposal by <s>20 Dec</s> <s>25 Dec</s> 28 Dec</h1>
                     <p>
                         <a href="https://pysv10.fe.rzob.gocept.net/en_GB/cfp" target="_blank">
                             Share

@@ -24,6 +24,8 @@ const SP_17 = 16;
 const SP_18 = 17;
 const SP_19 = 18;
 const SP_20 = 19;
+const SP_21 = 20;
+const SP_22 = 21;
 
 export const ORGANIZERS: Organizer[] = [
     {
@@ -196,6 +198,12 @@ export const SPEAKERS: Speaker[] = [
         title: 'How I made my girlfriend happy with a Telegram Bot 🤖',
     },
      /** 8 pm */
+     {
+        name: 'Mike Müller',
+        photo: require('Assets/speakers/2020_mike.jpg'),
+        social: 'https://twitter.com/pyacademy',
+        title: 'Learning about the Global Warming Potential ☀️ through Programming',
+    },
     {
         name: 'Lais Carvalho',
         photo: require('Assets/speakers/2020_lais.jpg'),
@@ -214,11 +222,18 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/rwangca',
         title: '🐈 Cat Gifs 🐈‍⬛ & the 10 Python Packages of 2020',
     },
+     /** 9 pm */
     {
         name: 'Jason C. McDonald',
         photo: require('Assets/speakers/2020_jason.png'),
         social: 'https://twitter.com/codemouse92',
         title: 'Whose Method Is It Anyway 🪆 ?',
+    },
+    {
+        name: 'Laura Gutierrez Funderburk',
+        photo: require('Assets/speakers/2020_laura.jpg'),
+        social: 'https://twitter.com/lgfunderburk',
+        title: 'Remaining sane 🧘🏽‍♀️ while coding away',
     },
     /*{
         name: 'Christian Barra',
@@ -517,6 +532,18 @@ export const SCHEDULE: Schedule[] = [
         time: '',
         type: Types.TALK,
         speaker: SP_20,
+    },
+    {
+        order: 20,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_21,
+    },
+    {
+        order: 21,
+        time: '',
+        type: Types.TALK,
+        speaker: SP_22,
     },
     /*{
         order: 0,

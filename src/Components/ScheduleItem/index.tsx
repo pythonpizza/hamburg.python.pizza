@@ -6,7 +6,6 @@ import Event, { Types } from '@/Types/Event';
 
 export interface ScheduleItemProps {
     schedule: Speaker | Event;
-    speaker: Speaker | null;
 }
 
 export default class ScheduleItem extends React.Component<ScheduleItemProps, {}> {

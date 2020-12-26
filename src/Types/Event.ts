@@ -5,10 +5,9 @@ export enum Types {
     LUNCH,
 }
 
-export default interface Schedule {
+export default interface Event {
     order: number;
     time: string;
     type: Types;
-    speaker?: number;
-    title?: string;
+    title: string;
 }

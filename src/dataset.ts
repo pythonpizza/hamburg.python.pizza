@@ -416,7 +416,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 0,
         time: '16:00',
-        title: 'Welcome and Happy in TOKYO!!! (JST UTC +9)',
+        title: 'Welcome and Happy New Year in TOKYO!!! (JST UTC +9)',
         type: Types.OTHER,
     },
     {

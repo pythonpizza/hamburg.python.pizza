@@ -2,9 +2,21 @@ import * as React from 'react';
 
 import Container, { Sizes } from '@/Components/Container';
 import ScheduleItem from '@/Components/ScheduleItem';
-import { SPEAKERS, SCHEDULE } from '@/dataset';
+import { SPEAKERS, EVENTS } from '@/dataset';
 
 export default class Schedule extends React.Component {
+    generateSchedule() {
+        var schedule = [];
+        var eventOrders = EVENTS.map((event) => event.order);
+        var numSpeakers = SPEAKERS.length;
+        for (var i = 0; i < numSpeakers; i++) {
+            if (eventOrders.includes(i)) {
+                schedule.push(EVENTS.shift());
+            }
+            schedule.push(SPEAKERS.shift());
+        }
+        return schedule;
+    }
     render() {
         return (
             <section id="schedule" className="schedule">
@@ -18,14 +30,9 @@ export default class Schedule extends React.Component {
                             determined in the coming days.
                         </p>
                     </Container>
-
                     <ul>
-                        {SCHEDULE.map((schedule) => (
-                            <ScheduleItem
-                                key={schedule.order}
-                                schedule={schedule}
-                                speaker={typeof schedule.speaker !== 'undefined' ? SPEAKERS[schedule.speaker] : null}
-                            />
+                        {this.generateSchedule().map((schedule) => (
+                            <ScheduleItem key={schedule.time} schedule={schedule} />
                         ))}
                     </ul>
                 </Container>

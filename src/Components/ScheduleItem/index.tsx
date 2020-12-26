@@ -2,10 +2,10 @@ import * as React from 'react';
 import classnames from 'classnames';
 import './index.css';
 import Speaker from '@/Types/Speaker';
-import Schedule, { Types } from '@/Types/Schedule';
+import Event, { Types } from '@/Types/Event';
 
 export interface ScheduleItemProps {
-    schedule: Schedule;
+    schedule: Speaker | Event;
     speaker: Speaker | null;
 }
 
@@ -16,11 +16,11 @@ export default class ScheduleItem extends React.Component<ScheduleItemProps, {}>
     };
 
     isTalk() {
-        return this.props.schedule.type === Types.TALK;
+        return this.props.schedule.name != undefined;
     }
 
     componentDidMount() {
-        const { speaker } = this.props;
+        const { schedule } = this.props;
 
         if (this.isTalk()) {
             const img = new Image();
@@ -34,15 +34,14 @@ export default class ScheduleItem extends React.Component<ScheduleItemProps, {}>
             };
 
             setTimeout(() => {
-                img.src = speaker!.photo;
+                img.src = schedule!.photo;
             }, 300 + 500 * Math.random());
         }
     }
 
     render() {
-        const { speaker, schedule } = this.props;
+        const { schedule } = this.props;
         const { isLoaded, isError } = this.state;
-
         const isTalk = this.isTalk();
 
         const scheduleItemClasses = classnames('schedule-item', {
@@ -57,17 +56,17 @@ export default class ScheduleItem extends React.Component<ScheduleItemProps, {}>
             'schedule-item--image--error': isError,
         });
 
-        const SpeakerNameTag = isTalk && speaker!.social ? 'a' : 'p';
-        const title = isTalk ? speaker!.title : schedule.title;
+        const SpeakerNameTag = isTalk && schedule!.social ? 'a' : 'p';
+        const title = isTalk ? schedule!.title : schedule.title;
 
         return (
             <li className={scheduleItemClasses}>
-                {isTalk && <div className={imageClasses} style={{ backgroundImage: `url(${speaker!.photo})` }} />}
+                {isTalk && <div className={imageClasses} style={{ backgroundImage: `url(${schedule!.photo})` }} />}
                 <div className="schedule-item--info">
                     <h2>{title}</h2>
                     {isTalk && (
-                        <SpeakerNameTag target="_blank" rel="noopener noreferrer" href={speaker!.social}>
-                            {speaker!.name}
+                        <SpeakerNameTag target="_blank" rel="noopener noreferrer" href={schedule!.social}>
+                            {schedule!.name}
                         </SpeakerNameTag>
                     )}
                     <span className="schedule-item--time">{schedule.time}</span>

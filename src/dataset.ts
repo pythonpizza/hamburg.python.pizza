@@ -191,6 +191,12 @@ export const SPONSORS: Sponsor[][] = [
             photo: require('Assets/sponsors/RasaLogo.svg'),
             link: 'https://rasa.com/',
         },
+        {
+            id: 'PyLadiesHH',
+            name: 'PythonLadies Hamburg',
+            photo: require('Assets/sponsors/pyladies_hamburg_tight.png'),
+            link: 'https://hamburg.pyladies.com',
+        },
     ],
 ];
 

@@ -28,6 +28,12 @@ export const ORGANIZERS: Organizer[] = [
 export const SPEAKERS: Speaker[] = [ 
     /** 4 pm */
     {
+        name: 'Marielle Dado',
+        photo: require('Assets/speakers/2020_mari.jpeg'),
+        social: 'https://twitter.com/marielli',
+        title: 'Python Pizza Pet 🐈 & Plant Parade 🪴!',
+    },
+    {
         name: 'Klaus Bremer',
         photo: require('Assets/speakers/2020_klaus.jpg'),
         title: 'Solitaire to the rescues 🃏',
@@ -162,6 +168,7 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/lgfunderburk',
         title: 'Remaining sane 🧘🏽‍♀️ while coding away',
     },
+
 ];
 
 export const SOCIALS: Socials[] = [
@@ -207,7 +214,7 @@ const secondBreakTime = new Date('12/31/2020 6:00:00 PM UTC');
 const indiaBreakTime = new Date('12/31/2020 6:30:00 PM UTC');
 const thirdBreakTime = new Date('12/31/2020 7:00:00 PM UTC');
 const uaeBreakTime = new Date('12/31/2020 8:00:00 PM UTC');
-const closingBreakTime = new Date('12/31/2020 8:30:00 PM UTC');
+const closingBreakTime = new Date('12/31/2020 9:00:00 PM UTC');
 
 export const EVENTS: Event[] = [
     {   
@@ -253,7 +260,7 @@ export const EVENTS: Event[] = [
         type: Types.LUNCH,
     },
     {
-        order: 22,
+        order: 23,
         time: format(closingBreakTime, 'HH:mm'),
         title: 'Closing',
         type: Types.LUNCH,

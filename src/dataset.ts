@@ -50,13 +50,13 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/anastasiatymo',
         title: 'New Years Chronicles 🥳 for your code',
     },
+     /** 5 pm */
     {
         name: 'Lauris Jullien',
         photo: require('Assets/speakers/2020_lauris.jpg'),
         social: 'https://twitter.com/laucia_julljen',
         title: 'Always roll 20 in Leadership 🎲',
     },
-     /** 5 pm */
     {
         name: 'Ellen König',
         photo: require('Assets/speakers/2020_ellenK.png'),
@@ -83,11 +83,11 @@ export const SPEAKERS: Speaker[] = [
         title: 'The Advent of Code 🎄 - how close am I to the Leaderboard?',
     },
      /** 6 pm */
-    {
-        name: 'Martin Christen',
-        photo: require('Assets/speakers/2020_martin_sq.jpg'),
-        social: 'https://twitter.com/MartinChristen',
-        title: '💥PyRT 2021 - Computer Graphics with Python',
+     {
+        name: 'Sebastian Witowski',
+        photo: require('Assets/speakers/2020_sebastian.jpeg'),
+        social: 'https://twitter.com/SebaWitowski',
+        title: '🎥 Lessons learned from recording my first programming videos',
     },
     {
         name: 'Dr. Jing Xie',
@@ -95,10 +95,10 @@ export const SPEAKERS: Speaker[] = [
         title: 'Storytelling for data scientists: 4 things to skyrocket 🚀 your presentation skills',
     },
     {
-        name: 'Niklas Meinzer',
-        photo: require('Assets/speakers/2020_NiklasMM.jpg'),
-        social: 'https://twitter.com/NiklasMM',
-        title: 'Some points about nothing 📭',
+        name: 'Martin Christen',
+        photo: require('Assets/speakers/2020_martin_sq.jpg'),
+        social: 'https://twitter.com/MartinChristen',
+        title: '💥PyRT 2021 - Computer Graphics with Python',
     },
     {
         name: 'Hannah Hazi',
@@ -114,10 +114,10 @@ export const SPEAKERS: Speaker[] = [
         title: '🗺 Maps, Maps, Maps! 🗺',
     },
     {
-        name: 'Sebastian Witowski',
-        photo: require('Assets/speakers/2020_sebastian.jpeg'),
-        social: 'https://twitter.com/SebaWitowski',
-        title: '🎥 Lessons learned from recording my first programming videos',
+        name: 'Niklas Meinzer',
+        photo: require('Assets/speakers/2020_NiklasMM.jpg'),
+        social: 'https://twitter.com/NiklasMM',
+        title: 'Some points about nothing 📭',
     },
     {
         name: 'Cheuk Ting Ho',
@@ -125,12 +125,13 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/cheukting_ho',
         title: 'How to Lose ⚖️ 10kg During Lockdown',
     },
+    /** 8 pm */
     {
         name: 'Alessandro Romano',
         photo: require('Assets/speakers/2020_alessandro.jpg'),
         title: 'How I made my girlfriend happy with a Telegram Bot 🤖',
     },
-     /** 8 pm */
+     
      {
         name: 'Mike Müller',
         photo: require('Assets/speakers/2020_mike.jpg'),

@@ -51,11 +51,10 @@ export const SPEAKERS: Speaker[] = [
         title: 'New Years Chronicles 🥳 for your code',
     },
      /** 5 pm */
-    {
-        name: 'Lauris Jullien',
-        photo: require('Assets/speakers/2020_lauris.jpg'),
-        social: 'https://twitter.com/laucia_julljen',
-        title: 'Always roll 20 in Leadership 🎲',
+     {
+        name: 'Alessandro Romano',
+        photo: require('Assets/speakers/2020_alessandro.jpg'),
+        title: 'How I made my girlfriend happy with a Telegram Bot 🤖',
     },
     {
         name: 'Ellen König',
@@ -69,7 +68,6 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/eumiro',
         title: 'The Final Countdown ⌛',
     },
-    
     {
         name: 'Prashant Sahu',
         photo: require('Assets/speakers/2020_prashant.jpg'),
@@ -127,11 +125,11 @@ export const SPEAKERS: Speaker[] = [
     },
     /** 8 pm */
     {
-        name: 'Alessandro Romano',
-        photo: require('Assets/speakers/2020_alessandro.jpg'),
-        title: 'How I made my girlfriend happy with a Telegram Bot 🤖',
+        name: 'Lauris Jullien',
+        photo: require('Assets/speakers/2020_lauris.jpg'),
+        social: 'https://twitter.com/laucia_julljen',
+        title: 'Always roll 20 in Leadership 🎲',
     },
-     
      {
         name: 'Mike Müller',
         photo: require('Assets/speakers/2020_mike.jpg'),

@@ -45,12 +45,12 @@ export default class Header extends React.Component {
                             <a href="https://forms.gle/Hfdba6uCzeUrbmXM9" target="_blank" rel="noopener noreferrer">
                                 Call for Proposals
                             </a>
-                        </li> */}
+                        </li> 
                         <li>
                             <a href="https://pysv10.fe.rzob.gocept.net/en_GB/cfp" target="_blank">
                                 Call for Proposals
                             </a>
-                        </li>
+                        </li>*/}
                         <li>
                             <a onClick={this.onNavClick} href="#coc" data-destination="coc">
                                 CoC

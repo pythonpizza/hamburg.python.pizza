@@ -15,21 +15,13 @@ export default class About extends React.Component {
                         <a href="https://www.msf.org/" target="_blank" rel="noopener noreferrer">
                             Doctors Without Borders
                         </a>
-                        .
+                        . Our theme this time is 💥<b>UNBORING</b>💥️. Check out the speaker lineup below!
                     </p>
                     <br />
-                    <p>
-                        Submit your 10-min talk idea, it can be about anything 💥<b>UNBORING</b>💥️ you want to share
-                        this New Year's Eve 🥂 with the community! Check out these past editions:{' '}
-                        <a href="https://2019.hamburg.python.pizza/" target="_blank" rel="noopener noreferrer">
-                            Hamburg Python Pizza
-                        </a>{' '}
-                        and{' '}
-                        <a href="https://remote.python.pizza/" target="_blank" rel="noopener noreferrer">
-                            Remote Python Pizza
-                        </a>
-                        .{' '}
+                    <p> The conference will take place on <a href="https://gather.town/" target="_blank">Gather Town</a>. We will send you the instructions to log in after you have purchased a ticket. You can still purchase a ticket after the event has started, but please DM us <a href="https://twitter.com/pythonpizzaconf" target="_blank">@pythonpizaconf</a> so that we could add you to the list. Here is the map we will use and a guide of the conference space. We would also want to give credit to the <a href="https://www.reddit.com/user/Monsamoai/" target="_blank">map artist</a>.
                     </p>
+                    <br />
+                    <img alt="Map guide" src={require('Assets/Map guide.png')} />
                 </Container>
             </section>
         );

@@ -93,6 +93,12 @@ export const SPEAKERS: Speaker[] = [
         title: 'Storytelling for data scientists: 4 things to skyrocket 🚀 your presentation skills',
     },
     {
+        name: 'Niklas Meinzer',
+        photo: require('Assets/speakers/2020_NiklasMM.jpg'),
+        social: 'https://twitter.com/NiklasMM',
+        title: 'Some points about nothing 📭',
+    },
+    {
         name: 'Martin Christen',
         photo: require('Assets/speakers/2020_martin_sq.jpg'),
         social: 'https://twitter.com/MartinChristen',
@@ -111,12 +117,7 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/gahjelle',
         title: '🗺 Maps, Maps, Maps! 🗺',
     },
-    {
-        name: 'Niklas Meinzer',
-        photo: require('Assets/speakers/2020_NiklasMM.jpg'),
-        social: 'https://twitter.com/NiklasMM',
-        title: 'Some points about nothing 📭',
-    },
+
     {
         name: 'Cheuk Ting Ho',
         photo: require('Assets/speakers/2020_cheuk.png'),
@@ -211,9 +212,9 @@ const hkBreakTime = new Date('12/31/2020 4:00:00 PM UTC');
 const breakTime = new Date('12/31/2020 5:00:00 PM UTC');
 const secondBreakTime = new Date('12/31/2020 6:00:00 PM UTC');
 const indiaBreakTime = new Date('12/31/2020 6:30:00 PM UTC');
-const thirdBreakTime = new Date('12/31/2020 7:00:00 PM UTC');
-const uaeBreakTime = new Date('12/31/2020 8:00:00 PM UTC');
-const closingBreakTime = new Date('12/31/2020 9:00:00 PM UTC');
+const thirdBreakTime = new Date('12/31/2020 7:30:00 PM UTC');
+const uaeBreakTime = new Date('12/31/2020 8:30:00 PM UTC');
+const closingBreakTime = new Date('12/31/2020 9:30:00 PM UTC');
 
 export const EVENTS: Event[] = [
     {   
@@ -235,25 +236,19 @@ export const EVENTS: Event[] = [
         type: Types.LUNCH,
     },
     {
-        order: 12,
-        time: format(secondBreakTime, 'HH:mm'),
-        title: 'Break',
-        type: Types.LUNCH,
-    },
-    {
-        order: 14,
+        order: 11,
         time: format(indiaBreakTime, 'HH:mm'),
         title: 'Happy new year in 🇮🇳! 🎁',
         type: Types.LUNCH,
     },
     {
-        order: 16,
+        order: 15,
         time: format(thirdBreakTime, 'HH:mm'),
         title: 'Break',
         type: Types.LUNCH,
     },
     {
-        order: 20,
+        order: 19,
         time: format(uaeBreakTime, 'HH:mm'),
         title: 'Break and happy new year in 🇦🇪! 💥',
         type: Types.LUNCH,
